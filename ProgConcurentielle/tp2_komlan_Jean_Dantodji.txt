@@ -1,0 +1,100 @@
+ARITHMETIQUES
+Somme de deux nombres: 
+a+b
+Soustraction: a-b
+Muliplication: a*b
+Division classique: a/b
+Reste de la division: a%b
+Division entière: a//b
+Racine carré: a**2
+Racine carré: pow(a,2)
+
+CHAINE DE CARACTERE
+
+-Concaténation de chaines :
+chaine1= "Il va " 
+chaine2= "au cinema " 
+chaine3=chaine1+chaine2>>>>>>chaine3="Il va au cinéma"
+
+-Prélèvement d’une sous-chaine d’une autre :
+chaine="longueur"
+chaine1=chaine[3:5]>>>>>>>chaine1="gue"
+chaine2=chaine[3:]>>>>>>>chaine2="gueur"
+chaine3=chaine[:5]>>>>>>>chaine1="longue"
+
+-Modify char at a position k:
+chaine="longueur"
+k = 3
+Methode 1 :
+chaine =chaine[:k]+"z"+chaine[k+1:]>>>chaine1="lonzueur"
+Methode 2 :
+lis = list(chaine)
+lis[k] = "z"
+chaine = "".join(lis)>>chaine="lonzueur"
+
+-Remplacer une partie d’une chaine par une autre autre :
+chaine="longueur"
+chainer=chaine.replace("gue","dur")>>>>>>>chainer="londurur"
+
+-Recommencer une chaine par une lettre majuscule
+chaine="longueur"
+chaine1=chaine.capitalize()>>>>>>>chaine1="Longueur"
+
+-Transformer une chaine en majuscule
+chaine="longueur"
+chaine1=chaine.upper()>>>>>>>chaine1="LONGUEUR"
+
+-Transformer une chaine en minuscule
+chaine="LONGUEUR"
+chaine1=chaine.lower()>>>>>>>chaine1="longueur"
+
+-Transformer une chaine contenant des accents en sans accents
+chaine="ça c’est à l’élève"
+Bibliothèque : import unicodedata
+chaine1=unicodedata.normalize('NFD', chaine).encode('ascii', 'ignore').decode('ascii') chaine="ca cest a l’eleve"
+
+-Convertir caractère en Décimal, Binaire, Hexadécimal
+Caractère : chr(65)>>>>>>>> ='A'
+Décimal : ord("A"))>>>>>>>=65
+Binaire : bin(ord("A"))>>>>>>>=0b1000001
+Hexadécimal : hex(ord("A"))>>>>>>>=0x41
+
+-La chaine contenant tous les caractères de l’alphabet
+Bibliothèque : import string
+chainea=string.ascii_uppercase>>>>>>>chainea="abcdefghijklmnopqrstuvwxyz"
+
+
+LISTES
+-Initialisation :
+liste=[] 
+liste=list()
+liste=[5,[2,3],4,7,-1,7] 
+
+-Ajout d’un élément dans la liste : a=8
+liste.append(a)>>>>>>>liste= [5,[2,3],4,7,-1,7, 8]
+
+-Ajout d’un élément à une position donnée: 'c' à position 2
+liste.insert(2,'c')>>>>>>>liste= [5,[2,3], 'c',4,7,-1,7, 8]
+
+-Supprimer un élément connaissant sa position : i=3
+del liste[3]>>>>>>>liste= [5,[2,3], 'c',7,-1,7, 8]
+
+-Supprimer un élément connaissant sa valeur : 7
+liste.remove(7)>>>>>>>liste= [5,[2,3], 'c',-1,7, 8]
+
+-Concaténer deux listes :
+liste1=[5,[2,3], 'c',-1,7, 8]
+liste2=["jean", 2]
+liste3=liste1.extend(liste2) )>>>>>liste=[5,[2,3],'c',-1,7, 8, "jean", 2]
+
+-Choix aléatoire dans une liste :
+Bibliothèque : import random
+a=random.randint(0,42)>>>>>>>>>A peut valoir 15
+
+-Former une liste à partir d’une phrase :
+phrase="je ne suis pas là"
+liste=phrase.split(" ")>>>>>>>liste=["je","ne","suis","pas","là"]
+
+-Former une phrase à partir d’une liste :
+liste=["je","ne","suis","pas","là"]
+phrase="".join(liste) >>>>>>>>>="je ne suis pas là"
