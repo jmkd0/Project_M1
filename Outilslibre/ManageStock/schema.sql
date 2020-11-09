@@ -1,0 +1,4 @@
+create table "magasin" ( cle INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+produit NVARCHAR(160)  NOT NULL,
+quantite INTEGER  NOT NULL,
+prix FLOAT  NOT NULL);

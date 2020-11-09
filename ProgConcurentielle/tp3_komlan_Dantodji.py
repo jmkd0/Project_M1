@@ -18,7 +18,7 @@ def remplace_multiple(s1, s2, n):
 
 #Exercice 3
 #Enonce 1
-def termeU(n):
+def termeU(n):  ²&²²²²²²²²² -èy-è-"e"
     if n == 0:
         return 1
     else:
