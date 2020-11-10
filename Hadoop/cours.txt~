@@ -37,9 +37,7 @@ hdfs dfs -cp test/data.txt
 Copier de hdfs vers le Local
 hdfs dfs -get test/data.txt /home/cloudera/Documents
 
-CLOUDERA 
-Git clone:
-git clone git://github.com/jmkd0/Project_M1.git
+
 
 
 30/10/2020
