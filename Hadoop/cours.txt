@@ -38,8 +38,21 @@ Copier de hdfs vers le Local
 hdfs dfs -get test/data.txt /home/cloudera/Documents
 
 CLOUDERA 
-Git clone:
-git clone git://github.com/jmkd0/Project_M1.git
+Git clone: clone with the SSH link
+>git clone git://github.com/jmkd0/Project_M1.git
+
+SSH Key for GITHUB
+Generate key
+>ssh-keygen -t rsa -b 4096 -C "jmkd@yahoo.com"
+Start key
+>eval $(ssh-agent -s)
+Add to the computer
+>ssh-add ~/.ssh/id_rsa
+Display the Key
+>cat ~/.ssh/id_rsa.pub
+Copy the key and open Github and go to setting > SSH and GPS Key > New SSH Key
+Give a name to title for example: Cloudera
+And Past key 
 
 
 30/10/2020
