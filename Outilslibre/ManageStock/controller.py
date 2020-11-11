@@ -52,7 +52,7 @@ def add_or_update(window, label, entry_article_name, entry_quantity, entry_price
     article_name = entry_article_name.get()
     quantity = entry_quantity.get()
     price = entry_price.get()
-    product = [article_name, quantity, price]
+    product = [article_name, int(quantity), float(price)]
     main.fillStock(product)
     get_all_products(window, label, label_rupture, entry_rupture)
     #Dispplay articles almost empty

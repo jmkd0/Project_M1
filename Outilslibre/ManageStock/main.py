@@ -63,8 +63,9 @@ def fillStock(product):
         cur.execute("SELECT * FROM magasin WHERE produit = ?", (product[0],))
         magasinTable = cur.fetchone()
         if int(product[1]) < 0:
-            product[2] = 0
+            product[1] = 0
         if magasinTable is not None:
+            product[1] += magasinTable[2] 
             cur.execute("UPDATE magasin SET quantite = ?, prix = ? WHERE produit = ?", (product[1], product[2], product[0]))
         else:
             cur.execute("INSERT INTO magasin VALUES (NULL, ?,?,?)",(product[0], product[1], product[2]))
