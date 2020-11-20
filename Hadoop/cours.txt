@@ -72,3 +72,47 @@ Atelier Hive
 Creer un dossier sur hive pour créer 
 hdfs dfs -mkdir /directory
 Recuperer la data
+
+
+
+
+HDFS:
+Mettre un fichier dans hdfs:
+Create directory for hdfs data
+> hadoop fs -mkdir hdfsdata
+
+Display files in hdfs
+> hadoop fs -ls hdfsdata
+
+Delete folder or file in HDFS 
+> hadoop fs -rm -r hdfsdata/file.txt
+
+Copy file from local to hdfs
+> hadoop fs -put Project_M1/Hadoop/mapreduce/constitution.txt hdfsdata/
+
+Get file from hdfs to local
+> hadoop fs -get hdfsdata/constitution.txt Project_M1/Hadoop/mapreduce/
+
+Copy file within hdfs
+> hadoop fs -cp from/here.txt to/there/
+
+Lancer un job existant de cloudera:
+> yarn jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar wordcount /hdfsdata/constitution.txt output	
+
+Visualize the output in output
+> hadoop fs -cat output/part-r-00000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
