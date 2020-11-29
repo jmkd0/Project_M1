@@ -1,0 +1,75 @@
+import random
+import sys
+import time
+from threading import Thread, RLock
+from multiprocessing import Lock, Process
+
+list = [2, 3, 8, 9, 12]
+
+#Function to calculate square of list
+def calcul_square(nombres):
+    for x in nombres:
+        sys.stdout.write("\033[0;32m") #to print squared values in green color
+        sys.stdout.write(str(x**2)+" ")
+        sys.stdout.flush()
+        attente = 0.5
+        attente += random.randint(1,60)/100
+        time.sleep(attente)
+
+#Function to calculate cube of list
+def calcul_cube(nombres):
+    for x in nombres:
+        sys.stdout.write("\033[1;34m") #to print cubed values in blue color
+        sys.stdout.write(str(x**3)+" ")
+        sys.stdout.flush()
+        attente = 0.5
+        attente += random.randint(1,60)/100
+        time.sleep(attente)
+
+#Exercice 1
+def multithreading():
+    #Creation des threads
+    thread_1 = Thread(target = calcul_square, args = (list, ))
+    thread_2 = Thread(target = calcul_cube, args = (list, ))
+
+    #Lancement des threads
+    thread_1.start()
+    thread_2.start()
+    #Attente que les threads se terminent
+    thread_1.join()
+    thread_2.join()
+
+
+#Exercice 2
+def multiprocessing():
+    #Creation of proccessings
+    process_1 = Process(target=calcul_square, args=(list,))
+    process_2 = Process(target = calcul_cube, args = (list, ))
+
+    #Lunch proccess
+    process_1.start()
+    process_2.start()
+
+    #Waitting proccess finish
+    process_1.join()
+    process_2.join()
+
+
+
+#Calling functions
+print("Threading execution")
+multithreading()
+print("\n")
+
+print("Proccessing execution")
+multiprocessing()
+print("\n")
+
+"""
+Example of output:
+Threading execution
+4 8 27 9 512 64 81 729 144 1728 
+
+Proccessing execution
+4 8 9 27 512 64 729 81 144 1728 
+"""

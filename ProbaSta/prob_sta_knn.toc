@@ -1,0 +1,26 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {french}{}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{K-Nearest Neighbor}{4}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{1}{Préparation des données}{4}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{2}{Fonctionnement du K-NN}{5}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{3}{Distances}{6}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{4}{Choix du paramètre K}{7}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{5}{Algorithme en Python}{8}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Applications}{9}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{1}{Domaines d'application}{9}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Conclusion}{10}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{1}{Conclusion}{10}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Références}{11}{0}{5}
