@@ -1,0 +1,45 @@
+BIG DATA: clé d'inscription sur moodle: clé: FrameworkBigData
+
+Espaces de cours par composantes (UFR / IUT / Instituts)  / 
+Install VM Cloudera
+https://downloads.cloudera.com/demo_vm/virtualbox/cloudera-quickstart-vm-5.13.0-0-virtualbox.zip 
+Unzip the file
+On Vmware click on Open a Virtual Machine and import the .ovf 
+Import the machine.
+
+
+Correction Attelier:
+hdfs dfs -ls 
+afficher le contenue du repertoire courant
+
+Créer un repertoire
+hdfs dfs -mkdir test
+
+creer un sous repertoire test1
+hdfs dfs -mkdir test/test1
+
+Afficher tous les repertoires et le sous repertoire
+hdfs dfs -ls -R
+
+Supprimer dans un sous repertoire
+hdfs dfs -rm -R test/test1
+
+Données supprimé sont un trash vidé après un lapse de temps
+
+Partie 4:
+Copier un fichier depuis le bureau
+cd Desktop
+hdfs dfs -put data.txt test/test1
+hdfs dfs -copyFromLocal /home/ubuntu/sample  /hadoop
+
+hdfs dfs -cp test/test1/data.txt test
+
+Visualiser le contenue du fichier
+cat: le fichier en entier 
+tail pour les 20 dernières ligne du fichier
+hdfs dfs -tail test/data.txt
+hdfs dfs -cp test/data.txt
+
+Copier de hdfs vers le Local
+hdfs dfs -get test/data.txt /home/cloudera/Documents
+

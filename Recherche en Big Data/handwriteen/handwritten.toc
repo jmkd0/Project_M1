@@ -22,3 +22,5 @@
 \beamer@sectionintoc {3}{Model de SVM }{11}{0}{3}
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {4}{Synthèse et Conclusion}{12}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Référence}{13}{0}{5}

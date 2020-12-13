@@ -9,9 +9,14 @@
 \usepackage{tikz}
 \pgfdeclareimage[height=0.5cm]{le-logo}{}
 %\setbeamertemplate{footline}[frame number]
-%Set number slide
-\usepackage[backend=biber, natbib, maxbibnames=20, citestyle=authoryear]{biblatex}
+%Set number slide 
+
+\usepackage[backend=biber]{biblatex}
+%\usepackage[backend=biber, style=chem-acs]{biblatex}
 \addbibresource{handwritten.bib} 
+\bibliography{handwritten}
+\setbeamertemplate{bibliography item}[triangle]
+
 \usepackage{multirow}% row fusion
 \usepackage{array} % column fusion
 \usepackage{xfrac} % small fractions
@@ -120,7 +125,7 @@ Kernel Sigmoid: $$K(X_i,X_j )= \tanh{(\gamma x_i^T x_j+r)}$$
 \subsection{Extraction des caractéristiques}
 \begin{frame}{Extraction des caractéristiques} 
 \begin{figure}[H]
-    \includegraphics[width=12cm,height=5.2cm]{images/diagonal_methode.png}
+    \includegraphics[width=10cm,height=5.2cm]{images/diagonal_methode.png}
     \caption{Méthode d'extraction diagonale: https://www.researchgate.net/figure/Procedure-for-extracting-feature}
     \label{fig:L1}
 \end{figure}
@@ -130,7 +135,7 @@ Kernel Sigmoid: $$K(X_i,X_j )= \tanh{(\gamma x_i^T x_j+r)}$$
 \section{Model de SVM }
 \begin{frame}{Les différents étapes de SVM } 
 \begin{figure}[H]
-    \includegraphics[width=9cm,height=5.5cm]{images/svm_methode.png}
+    \includegraphics[width=7cm,height=5cm]{images/svm_methode.png}
     \caption{Etapes de SVM: https://www.researchgate.net/figure/Different-stages-of-SVM-classification}
     \label{fig:L1}
 \end{figure}
@@ -140,10 +145,22 @@ Kernel Sigmoid: $$K(X_i,X_j )= \tanh{(\gamma x_i^T x_j+r)}$$
 \section{Synthèse et Conclusion}
 \begin{frame}{Synthèse et Conclusion}
 \begin{figure}[H]
-    \includegraphics[width=15cm,height=4cm]{images/accuracy.png}
+    \includegraphics[width=10cm,height=3cm]{images/accuracy.png}
     \caption{https://www.researchgate.net/publication/323112207Off-Line Handwritten Character Recognition System Using Support Vector Machine}
     \label{fig:L1}
 \end{figure}
 \end{frame}
+\section{Référence}
+\begin{frame}{Référence}
+\renewcommand*{\bibfont}{\footnotesize}
+\nocite{bibhand}
+\printbibliography
+\end{frame}
 
+\begin{frame}
+  \begin{block}{}
+  \centering
+  Merci pour votre attention
+  \end{block}
+\end{frame}
 \end{document}

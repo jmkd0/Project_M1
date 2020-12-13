@@ -1,0 +1,27 @@
+import pandas as pd
+import json 
+import numpy as np
+import matplotlib.pyplot as plt # pip install matplotlib
+import plotly.express as px # pip install plotly
+import plotly.graph_objects as go
+
+# https://www.data.gouv.fr/en/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/#_
+hospital_covid = pd.read_csv('https://www.data.gouv.fr/en/datasets/r/63352e38-d353-4b54-bfd1-f1b3ee1cabd7', sep=';')
+
+hospital_covid = hospital_covid[hospital_covid.columns[2:]]
+hospital_covid = hospital_covid.groupby('jour').sum()
+hospital_covid = hospital_covid.reset_index()
+hospital_covid.columns = ['date', 'hospitalized', 'intensive_case', 'healed_cum','dead_cum']
+#
+#
+fig = go.Figure()
+fig.add_trace(go.Scatter(x=hospital_covid['date'].values, y=hospital_covid['hospitalized'].values, mode='lines+markers', name='Hospitalized cases', marker_color='gold'))
+fig.add_trace(go.Scatter(x=hospital_covid['date'].values, y=hospital_covid['intensive_case'].values, mode='lines+markers', name='Intensive cases', marker_color='olive'))
+fig.add_trace(go.Scatter(x=hospital_covid['date'].values, y=hospital_covid['healed_cum'].values, mode='lines+markers', name='Cumulative Healed', marker_color='green'))
+fig.add_trace(go.Scatter(x=hospital_covid['date'].values, y=hospital_covid['dead_cum'].values, mode='lines+markers', name='Cumulative death', marker_color='red'))
+#
+#
+fig.update_layout(title='COVID 19 Hospital information in France', yaxis_zeroline=False, xaxis_zeroline=False)
+##fig = px.line(hospital_covid, x="date", y="hospitalized", line=dict(color='firebrick', width=4), title='COVID 19 Hospital information in France')
+fig.show()
+#print(hospital_covid)
