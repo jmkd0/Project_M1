@@ -25,17 +25,15 @@ class Afficheur(Thread):
             i += 1
 
 if __name__ == "__main__":
-    for i in range(10):
-        print(time())
     #Creation des threads
-    #thread_1 = Afficheur("canard")
-    #thread_2 = Afficheur("TORTUE")
-#
-    ##Lancement des threads
-    #thread_1.start()
-    #thread_2.start()
-#
-    ##Attente que les threads se terminent
-    #thread_1.join()
-    #thread_2.join()
+    thread_1 = Afficheur("canard")
+    thread_2 = Afficheur("TORTUE")
+
+    #Lancement des threads
+    thread_1.start()
+    thread_2.start()
+
+    #Attente que les threads se terminent
+    thread_1.join()
+    thread_2.join()
 
