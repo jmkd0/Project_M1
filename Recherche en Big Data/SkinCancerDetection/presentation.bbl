@@ -1,0 +1,53 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{bibskin}{article}{}
+      \name{author}{1}{}{%
+        {{hash=55d4254964258769f6f8dd9a0235941f}{%
+           family={Mahamudul\bibnamedelima Hasan},
+           familyi={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Surajit\bibnamedelimb Das\bibnamedelima Barman},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           suffix={Samia\bibnamedelima Islam},
+           suffixi={S\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{55d4254964258769f6f8dd9a0235941f}
+      \strng{fullhash}{55d4254964258769f6f8dd9a0235941f}
+      \strng{bibnamehash}{55d4254964258769f6f8dd9a0235941f}
+      \strng{authorbibnamehash}{55d4254964258769f6f8dd9a0235941f}
+      \strng{authornamehash}{55d4254964258769f6f8dd9a0235941f}
+      \strng{authorfullhash}{55d4254964258769f6f8dd9a0235941f}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{the 2019 5th International Conference}
+      \field{title}{Skin Cancer Detection Using Convolutional Neural Network}
+      \field{volume}{3}
+      \field{year}{April 2019}
+      \true{nocite}
+      \field{pages}{254\bibrangedash 258}
+      \range{pages}{5}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

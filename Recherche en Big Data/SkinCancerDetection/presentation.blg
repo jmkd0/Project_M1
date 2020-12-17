@@ -1,0 +1,21 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'presentation.blg'
+[86] biber:322> INFO - === jeu. déc. 17, 2020, 14:23:08
+[101] Biber.pm:415> INFO - Reading 'presentation.bcf'
+[174] Biber.pm:943> INFO - Found 1 citekeys in bib section 0
+[188] Biber.pm:4256> INFO - Processing section 0
+[189] Utils.pm:75> INFO - Globbing data source 'presentation.bib'
+[189] Utils.pm:91> INFO - Globbed data source 'presentation.bib' to presentation.bib
+[189] Utils.pm:75> INFO - Globbing data source 'Skin Cancer Detection.bib'
+[189] Utils.pm:91> INFO - Globbed data source 'Skin Cancer Detection.bib' to Skin Cancer,Detection.bib
+[200] Biber.pm:4455> INFO - Looking for bibtex format file 'presentation.bib' for section 0
+[203] bibtex.pm:1653> INFO - LaTeX decoding ...
+[277] bibtex.pm:1471> INFO - Found BibTeX data source 'presentation.bib'
+[311] Utils.pm:293> WARN - year field 'April 2019' in entry 'bibskin' is not an integer - this will probably not sort properly.
+[321] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[321] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[321] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'fr-FR'
+[321] Biber.pm:4090> INFO - No sort tailoring available for locale 'fr-FR'
+[325] bbl.pm:652> INFO - Writing 'presentation.bbl' with encoding 'UTF-8'
+[326] bbl.pm:755> INFO - Output to presentation.bbl
+[326] Biber.pm:128> INFO - WARNINGS: 1
