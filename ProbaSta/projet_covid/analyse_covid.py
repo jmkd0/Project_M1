@@ -22,13 +22,14 @@ def tests_depistage_covid_datas_france():
     fig_class_age.add_trace(go.Bar(x=ages, y=positive_covid_age["P_f"].values.tolist(), name='Females',marker_color='#BF0060'), 1, 2)
     fig_class_age.add_trace(go.Bar(x=ages, y=positive_covid_age["P_h"].values.tolist(), name='Males',marker_color='#36A2EB'), 2, 1)
     fig_class_age.add_trace(go.Bar(x=ages, y=positive_covid_age["P"].values.tolist(), name='Both Sex',marker_color='#7B7B7B'), 2, 2)
-    fig_class_age.update_layout(
+    fig_class_age.update_layout(S
+        
         title_text="Cas positives en fonction de l'age",
         # Add annotations in the center of the donut pies.
-        annotations=[dict(text='Repartition based on sex',  font_size=20, showarrow=False),
-                     dict(text='Females',  font_size=20, showarrow=False),
-                     dict(text='Males',  font_size=20, showarrow=False),
-                     dict(text='Both Sex',  font_size=20, showarrow=False)])
+        annotations=[dict(text='Repartition based on sex (Figure 1)',  font_size=20, showarrow=False),
+                     dict(text='Females (Figure 2)' ,  font_size=20, showarrow=False),
+                     dict(text='Males (Figure 3)',  font_size=20, showarrow=False),
+                     dict(text='Both Sex (Figure 4)' ,  font_size=20, showarrow=False)])
     fig_class_age = go.Figure(fig_class_age)
     fig_class_age.show()
 
@@ -106,10 +107,10 @@ def hospitalize_covid_datas_france():
     fig_sexe_covid.update_layout(
         title_text="Prsonnes hospitalisées en fonction du sexe",
         # Add annotations in the center of the donut pies.
-        annotations=[dict(text='Hospitalisation',  font_size=20, showarrow=False),
-                     dict(text='Réanimation',  font_size=20, showarrow=False),
-                     dict(text='Guerison',  font_size=20, showarrow=False),
-                     dict(text='Mortalité',  font_size=20, showarrow=False)])
+        annotations=[dict(text='Hospitalisation (Figure 1)',  font_size=20, showarrow=False),
+                     dict(text='Réanimation (Figure 2)',  font_size=20, showarrow=False),
+                     dict(text='Guerison (Figure 3)',  font_size=20, showarrow=False),
+                     dict(text='Mortalité (Figure 4)',  font_size=20, showarrow=False)])
     fig_sexe_covid = go.Figure(fig_sexe_covid)
     fig_sexe_covid.show()
 
@@ -124,15 +125,14 @@ def hospitalize_covid_datas_france():
     fig_class_age.update_layout(
         title_text="Personnes hospitalisées en fonction de la tranche d'age",
         # Add annotations in the center of the donut pies.
-        annotations=[dict(text='Hospitalisation',  font_size=20, showarrow=False),
-                     dict(text='Réanimation',  font_size=20, showarrow=False),
-                     dict(text='Guerison',  font_size=20, showarrow=False),
-                     dict(text='Mortalité',  font_size=20, showarrow=False)])
+        annotations=[dict(text='Hospitalisation (Figure 1)',  font_size=20, showarrow=False),
+                     dict(text='Réanimation (Figure 2) ',  font_size=20, showarrow=False),
+                     dict(text='Guerison (Figure 3)',  font_size=20, showarrow=False),
+                     dict(text='Mortalité (Figure 4)',  font_size=20, showarrow=False)])
     fig_class_age = go.Figure(fig_class_age)
     fig_class_age.show()
 
 
-
+tests_depistage_covid_datas_france()
 hospitalize_covid_datas_france()
 
-tests_depistage_covid_datas_france()
