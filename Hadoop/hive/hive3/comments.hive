@@ -1,0 +1,6 @@
+    select count(*) as comment_count, info_comment
+	from wh_visits
+	where info_comment like "%RECEP%"
+	group by info_comment
+	order by comment_count DESC
+	limit 30;

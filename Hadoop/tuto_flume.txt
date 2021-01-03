@@ -1,0 +1,84 @@
+FLUME on HADOOP
+/******************************************************************/
+TWEETER
+Create Tweeter API to get data From Tweeter:
+Go to through the link 
+https://developer.twitter.com/en/apply-for-access
+and click on Apply for a developper account
+Loging to tweeter and create an new developper account 
+
+Get Keys and tokens:
+https://developer.twitter.com/en/portal/products 
+Then in Project and Apps click on the tweeter App you created
+In section Key and Tokens get the following keys and tokens
+
+Key API:       
+r0v4KQkv29Aqf8fShzKT68cLC
+API secret Key:        
+DDLnXgdwyGfMqfNQy4lM8NonRk2Go4mg4jN9DTuzud29ChDmTG
+Access Token: 
+1341362270916456449-zpH01fqlIZfvx1G1EfZDfxLIzuJBq9
+Access token secret:   
+y1kBYkJU9CkwqjpSavyrAVIapjFSTjH9y8ffkUjdjrryW
+/*****************************************************************/
+
+> sudo su -l hadoop
+https://downloads.apache.org/flume/
+and download the latest version: apache-flume-1.9.0-bin.tar.gz
+> cp /home/komlan/Downloads/apache-flume-1.9.0-bin.tar.gz .
+> tar xvf apache-flume-1.9.0-bin.tar.gz
+> mv apache-flume-1.9.0-bin /opt/hadoop-3.3.0
+> vim .bashrc
+Add:
+export FLUME_HOME=/opt/hadoop-3.3.0/apache-flume-1.9.0-bin
+export PATH=$PATH:$FLUME_HOME/bin
+To check if flume is set up well (try to relogin to hadoop user if error)
+> flume-ng version
+
+Create HDFS repository:
+> hdfs dfs -ls /tweeterdata
+
+Edit configuration file:
+cd /opt/hadoop-3.3.0/apache-flume-1.9.0-bin/conf
+In cloudera: > cd /etc/flume-ng/conf/
+> sudo vim flume.conf
+
+Copy and paste the default configuration from 
+https://github.com/cloudera/cdh-twitter-example/edit/master/flume-sources/flume.conf
+and modify the following line as:
+
+/****************************************************************************/
+TwitterAgent.sources = Twitter
+TwitterAgent.channels = MemChannel
+TwitterAgent.sinks = HDFS
+
+Twitter-Agent.sources.Twitter.type = org.apache.flume.source.twitter.TwitterSource
+TwitterAgent.sources.Twitter.channels = MemChannel
+TwitterAgent.sources.Twitter.consumerKey = r0v4KQkv29Aqf8fShzKT68cLC
+Twitter-Agent.sources.Twitter.consumerSecret = DDLnXgdwyGfMqfNQy4lM8NonRk2Go4mg4jN9DTuzud29ChDmTG
+TwitterAgent.sources.Twitter.accessToken = 1341362270916456449-jIoGzTxS43oVAtMcc6YrQmN8ZZAgjy
+Twitter-Agent.sources.Twitter.accessTokenSecret = ruF9KufTCuSMHeEvAdlZ0CwYvHmVuoaIqDMvaDs7MlUaF
+TwitterAgent.sources.Twitter.keywords = hadoop
+
+TwitterAgent.sinks.HDFS.channel = MemChannel
+TwitterAgent.sinks.HDFS.type = hdfs
+TwitterAgent.sinks.HDFS.hdfs.path =hdfs://localhost:9000/tweeterdata
+TwitterAgent.sinks.HDFS.hdfs.fileType = DataStream
+TwitterAgent.sinks.HDFS.hdfs.writeFormat = Text
+TwitterAgent.sinks.HDFS.hdfs.batchSize = 1000
+TwitterAgent.sinks.HDFS.hdfs.rollSize = 0
+TwitterAgent.sinks.HDFS.hdfs.rollCount = 10000
+TwitterAgent.sinks.HDFS.hdfs.rollInterval = 600
+
+TwitterAgent.channels.MemChannel.type = memory
+TwitterAgent.channels.MemChannel.capacity = 10000
+TwitterAgent.channels.MemChannel.transactionCapacity = 1000
+/****************************************************************************/
+Run with
+flume-ng agent agent -n TwitterAgent -f /opt/hadoop-3.3.0/apache-flume-1.9.0-bin/conf/flume.conf Dflume.root.logger=DEBUG,console
+
+Error 1: hdfs.HDFSEventSink: process failed
+>rm /opt/hadoop-3.3.0/apache-flume-1.9.0-bin/guava-11.0.2.jar
+Error1:
+Enlever / devant le chemin hadoop_home dans .bashrc
+
