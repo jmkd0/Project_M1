@@ -30,7 +30,7 @@ struct Params{
     int number_feature;
     int number_cluster;
     int epoch;
-} param = {.vigilance=0.9, .learning_rate=3, .number_feature=4, .number_cluster=3, .epoch=1};
+} param = {.vigilance=0.9, .learning_rate=2, .number_feature=4, .number_cluster=6, .epoch=1};
 //{.vigilance=0.4, .learning_rate=2, .number_feature=4, .number_cluster=3, .epoch=100};
 
 typedef struct{
@@ -41,6 +41,7 @@ typedef struct{
 typedef struct{
     double* X;
     double* Y;
+    int*    inhibited;
 }Activation;
 
 //Function to find the size (line and column ) of datas in database

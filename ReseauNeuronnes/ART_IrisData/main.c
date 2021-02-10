@@ -7,7 +7,7 @@
 
 
 int main(){
-    char* fileName = "iris.data"; /*https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data*/
+    char* fileName = "test1.data"; /*https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data*/
 
         /* Find size line and colum of dataIris */
     set_size_data_iris ( fileName );

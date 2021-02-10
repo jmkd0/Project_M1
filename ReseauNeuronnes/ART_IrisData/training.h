@@ -28,6 +28,7 @@ Activation* reserve_space_activation(Activation* activation){
     activation = (Activation*) malloc(sizeof(Activation));
     activation->X = (double*) malloc(param.number_feature * sizeof(double));
     activation->Y = (double*) malloc(param.number_cluster * sizeof(double));
+    activation->inhibited = (int*) calloc(param.number_cluster, sizeof(int));
 
     return activation;
 }
@@ -130,9 +131,9 @@ void learning(DataIris* data, Weights* weights, Activation* activation){
                 printf("\nWinner: %d", winner);
                 norm_activation_x = norm(activation->X);            //Get norm of the new activation X
 
-                double vigilance = norm_activation_x / norm_feature;//Calculate the rate of similarity
-                printf("\n>>>>>%f", vigilance);
-                if(vigilance >= param.vigilance){                   //If the similarity rate is above 0.4
+                double rate = norm_activation_x / norm_feature;//Calculate the rate of similarity
+                printf("\nrate = %f", rate);
+                if(rate >= param.vigilance){                   //If the similarity rate is above 0.4
                     resonance = TRUE;                                      //Reset becomes false
                     data[i].predict_label = winner + 1;             //And the label of this feature is the index of Y winner in the top
                 }else{

@@ -1,4 +1,4 @@
-0,0,0,1,virginica
-0,1,0,1,setossa
-0,0,1,1,setossa
-1,0,0,0,versicolor
+0,0,0,1,name
+0,1,0,1,name
+0,0,1,1,name
+1,0,0,0,name

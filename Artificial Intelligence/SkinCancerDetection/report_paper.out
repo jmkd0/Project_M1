@@ -1,0 +1,19 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Probl\351matique}{}% 2
+\BOOKMARK [1][-]{section.3}{Etat de l'art}{}% 3
+\BOOKMARK [1][-]{section.4}{Skin Cancer Detection Using Image Proceessing}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Pr\351sentation des auteurs}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{Les \351tapes de pr\351traitement}{section.4}% 6
+\BOOKMARK [1][-]{section.5}{Base de donn\351e}{}% 7
+\BOOKMARK [1][-]{section.6}{Skin Cancer Detection Using Convolutional Neuronal Network}{}% 8
+\BOOKMARK [2][-]{subsection.6.1}{Pr\351sentation des auteurs}{section.6}% 9
+\BOOKMARK [2][-]{subsection.6.2}{Step 1: Pr\351traitement}{section.6}% 10
+\BOOKMARK [2][-]{subsection.6.3}{Step 2: Sauvegarde des images}{section.6}% 11
+\BOOKMARK [2][-]{subsection.6.4}{Step 3: Envoie des donn\351es d'image au model CNN}{section.6}% 12
+\BOOKMARK [2][-]{subsection.6.5}{Step 4: Entrainement}{section.6}% 13
+\BOOKMARK [2][-]{subsection.6.6}{Step 5: Sauvegarde du model }{section.6}% 14
+\BOOKMARK [2][-]{subsection.6.7}{Step 6: Pr\351diction}{section.6}% 15
+\BOOKMARK [1][-]{section.7}{Discussion}{}% 16
+\BOOKMARK [1][-]{section.8}{Resultats}{}% 17
+\BOOKMARK [1][-]{section.9}{Conclusion}{}% 18
+\BOOKMARK [1][-]{section.10}{Ref\351rences}{}% 19

@@ -266,7 +266,7 @@ void PropagateToF1(NET* Net, BOOL* Input)
  ******************************************************************************/   
    
    
-REAL Magnitude(NET* Net, BOOL* Input)   
+REAL Norme(NET* Net, BOOL* Input)   
 {   
   INT  i;   
   REAL Magnitude;   
@@ -286,7 +286,7 @@ void AdjustWeights(NET* Net)
    
   for (i=0; i<Net->F1->Units; i++) {   
     if (Net->F1->Output[i]) {   
-      MagnitudeInput_ = Magnitude(Net, Net->F1->Output);   
+      MagnitudeInput_ = Norme(Net, Net->F1->Output);   
       Net->F1->Weight[i][Net->Winner] = 1;   
       Net->F2->Weight[Net->Winner][i] = Net->L / (Net->L - 1 + MagnitudeInput_);   
     }   
@@ -322,11 +322,11 @@ void SimulateNet(NET* Net, BOOL* Input, BOOL* Output)
     GetOutput(Net, Output);   
     if (Net->Winner != NO_WINNER) {   
       PropagateToF1(Net, Input);   
-      MagnitudeInput = Magnitude(Net, Input);   
-      MagnitudeInput_ = Magnitude(Net, Net->F1->Output);   
+      MagnitudeInput = Norme(Net, Input); 
+      MagnitudeInput_ = Norme(Net, Net->F1->Output);   
       if ((MagnitudeInput_ / MagnitudeInput) < Net->Rho)   
         Net->F2->Inhibited[Net->Winner] = TRUE;   
-      else   
+      else      
         Resonance = TRUE;   
     }   
     else Exhausted = TRUE;   

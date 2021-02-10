@@ -1,0 +1,174 @@
+
+KAFKA
+ https://kafka.apache.org/downloads
+ Choose the one compiled with Scala
+ >tar xvf kafka-2.7.0-src.tgz
+ > sudo mv kafka-2.7.0-src /opt/hadoop-3.3.0/
+
+Add in .bashrc
+export PATH=$PATH:/opt/hadoop-3.3.0/kafka-2.7.0-src/bin
+
+
+
+
+FLUME
+.bashrc
+export FLUME_HOME=/opt/hadoop-3.3.0/apache-flume-1.9.0-bin
+export PATH=$PATH:$FLUME_HOME/bin
+export CLASSPATH=$FLUME_HOME/lib/*
+
+****************“FAILED: Execution Error, return code 1 from org.apache.hadoop.hive.ql.exec.DDLTask. Cannot validate serde: com.cloudera.hive.serde.JSONSerDe”
+Download or copy flume-sources-1.0-SNAPSHOT.jar
+> sudo cp flume-sources-1.0-SNAPSHOT.jar  /opt/hadoop-3.3.0/apache-flume-1.9.0-bin/lib/flume-sources-1.0-SNAPSHOT.jar 
+
+RUN
+flume-ng agent -n TwitterAgent --conf conf ./conf/ -f /opt/hadoop-3.3.0/apache-flume-1.9.0-bin/conf/flume_tweeter.conf -Dflume.root.logger=DEBUG,console
+
+*************IF ERROR lifecycle.LifecycleSupervisor: Unable to start EventDrivenSourceRunner
+sudo mv /opt/hadoop-3.3.0/apache-flume-1.9.0-bin/lib/twitter4j-stream-3.0.3.jar /opt/hadoop-3.3.0/apache-flume-1.9.0-bin/lib/twitter4j-stream-3.0.3.jarx
+sudo mv /opt/hadoop-3.3.0/apache-flume-1.9.0-bin/lib/twitter4j-core-3.0.3.jar /opt/hadoop-3.3.0/apache-flume-1.9.0-bin/lib/twitter4j-core-3.0.3.jarx
+sudo mv /opt/hadoop-3.3.0/apache-flume-1.9.0-bin/lib/twitter4j-media-support-3.0.3.jar /opt/hadoop-3.3.0/apache-flume-1.9.0-bin/lib/twitter4j-media-support-3.0.3.jarx
+
+
+hive>ADD JAR /opt/hadoop-3.3.0/apache-hive-3.1.2-bin/hcatalog/share/hcatalog/hive-hcatalog-core-3.1.2.jar;
+DELETE JAR /opt/hadoop-3.3.0/apache-hive-3.1.2-bin/hcatalog/share/hcatalog/hive-hcatalog-core-3.1.2.jar;
+CREATE EXTERNAL TABLE tweets( 
+        id BIGINT, 
+        created_at STRING, 
+        source STRING, 
+        favorited BOOLEAN, 
+        retweeted_status STRUCT< 
+            text: STRING, 
+            `user`: STRUCT<screen_name: STRING, name: STRING>,
+            retweet_count: INT>, 
+        entities STRUCT<
+            urls: ARRAY<STRUCT<expanded_url: STRING>>, 
+            user_mentions: ARRAY<STRUCT<screen_name: STRING, name: STRING>>, 
+            hashtags: ARRAY<STRUCT<text: STRING>>>, 
+        text STRING, 
+        `user` STRUCT<
+            screen_name: STRING, 
+            name: STRING, 
+            friends_count: INT, 
+            followers_count: INT, 
+            statues_count: INT, 
+            location: STRING,
+            verfied: BOOLEAN, 
+            utc_offset: INT, 
+            time_zone: STRING>, 
+        in_reply_to_screen_name STRING)  
+        ROW FORMAT SERDE 'org.apache.hive.hcatalog.data.JsonSerDe'
+    LOCATION '/user/hive/warehouse/tweetertable';
+
+> DESC tweets;
+
+> LOAD DATA INPATH '/tweeterdata/FlumeData.1609706431111' INTO TABLE tweets;
+
+> select * from tweets LIMIT 10;
+Selct all
+> select retweeted_status.`user`.screen_name from tweets;
+
+Top 10 users who retweets 
+SELECT t.retweeted_screen_name,
+    sum(retweets) AS total_retweets, 
+    count(*) AS tweet_count FROM 
+    (SELECT retweeted_status.`user`.screen_name AS retweeted_screen_name, retweeted_status.text, max(retweeted_status.retweet_count) AS retweets FROM tweets GROUP BY retweeted_status.`user`.screen_name, retweeted_status.text) t 
+    GROUP BY t.retweeted_screen_name 
+    ORDER BY total_retweets DESC 
+    LIMIT 10;
+
+SELECT t.location,
+    sum(retweets) AS total_retweets, 
+    count(*) AS tweet_count  FROM 
+    (SELECT `user`.location AS location, retweeted_status.text,
+      max(retweeted_status.retweet_count) AS retweets FROM tweets 
+     GROUP BY `user`.location,retweeted_status.text) t 
+     GROUP BY t.location ORDER BY total_retweets DESC LIMIT 10;
+    
+Get hive request to Local
+INSERT OVERWRITE LOCAL DIRECTORY '/home/hadoop/requests' 
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' 
+SELECT created_at, `user`.name,`user`.location FROM tweets;
+
+> cat /home/hadoop/requests/* > output.csv
+
+COVID 19 Data Gouv
+https://www.data.gouv.fr/en/datasets/coronavirus-covid19-evolution-par-pays-et-dans-le-monde-maj-quotidienne/#_
+
+> hdfs dfs -put /home/komlan/Downloads/coronavirus.politologue.com-pays-2021-01-08.csv /tweeterdata
+       
+CREATE EXTERNAL TABLE covid19(
+    `Date` DATE,
+    Pays STRING,
+    Infections INT,
+    Deces INT,
+    Guerisons INT,
+    TauxDeces FLOAT,
+    TauxGuerison FLOAT,
+    TauxInfection FLOAT
+)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ';'
+LOCATION '/user/hive/warehouse/covidtable';
+
+LOAD DATA INPATH '/tweeterdata/coronavirus.politologue.com-pays-2021-01-08.csv' INTO TABLE covid19;
+
+SELECT * FROM covid19 LIMIT 10;
+
+SELECT covid19.*,  t.location,
+    sum(retweets) AS total_retweets, 
+    count(*) AS tweet_count  FROM 
+    (SELECT tweets.`user`.location AS location, tweets.retweeted_status.text,
+      max(tweets.retweeted_status.retweet_count) AS retweets FROM tweets 
+     GROUP BY tweets.`user`.location, tweets.retweeted_status.text) t 
+     GROUP BY t.location ORDER BY total_retweets DESC LIMIT 10;
+    
+SELECT t.location,
+    sum(retweets) AS total_retweets, 
+    count(*) AS tweet_count  FROM 
+    (SELECT `user`.location AS location, retweeted_status.text,
+      max(retweeted_status.retweet_count) AS retweets FROM tweets 
+     GROUP BY `user`.location,retweeted_status.text) t 
+     GROUP BY t.location ORDER BY total_retweets DESC LIMIT 10;
+     
+SELECT
+    cov.*,
+    t.location,
+    sum(retweets) AS total_retweets, 
+    count(*) AS tweet_count  FROM 
+    (SELECT `user`.location AS location, retweeted_status.text,
+      max(retweeted_status.retweet_count) AS retweets FROM tweets 
+     GROUP BY `user`.location,retweeted_status.text) AS t, covid19 AS cov
+     GROUP BY t.location
+     INNER JOIN covid19 AS cov ON cov.Pays = t.location;
+     GROUP BY t.location ORDER BY total_retweets DESC;
+     
+SELECT cov.Infections, 
+    t.location,
+    sum(retweets) AS total_retweets, 
+    count(*) AS tweet_count  FROM 
+    (SELECT `user`.location AS location, retweeted_status.text,
+      max(retweeted_status.retweet_count) AS retweets FROM tweets 
+     GROUP BY `user`.location,retweeted_status.text) t 
+     LEFT JOIN covid19 cov ON cov.Pays = t.location
+     GROUP BY t.location ORDER BY total_retweets DESC;
+
+
+
+
+
+
+
+SELECT t.retweeted_screen_name,
+    sum(retweets) AS total_retweets, 
+    count(*) AS tweet_count, location FROM 
+    (SELECT retweeted_status.`user`.screen_name AS retweeted_screen_name, retweeted_status.text, `user`.location AS location, max(retweeted_status.retweet_count) AS retweets FROM tweets GROUP BY `user`.location) t GROUP BY t.retweeted_screen_name ORDER BY total_retweets DESC LIMIT 10;
+    
+    
+SELECT `user`.location, sum(retweeted_status.retweet_count)  FROM tweets GROUP BY `user`.location;
+
+SELECT entities.hashtags FROM tweets;
+
+SELECT `user`.location, retweeted_status.retweet_count  FROM tweets GROUP BY `user`.location;
+
+select `user`.location from tweets;
+ 
