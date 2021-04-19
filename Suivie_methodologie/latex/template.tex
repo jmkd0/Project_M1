@@ -1,0 +1,164 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{profil.jpg} % Profile picture
+
+\cvname{\Large{ Komlan Jean-Marie DANTODJI}} % Your name
+\cvjobtitle{\large{Data Scientist, Data Ingénieur, Data Analyst}} % Job title/career
+
+\cvdate{} % Date of birth
+\cvaddress{Pierrefitte-Sur-Seine} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+33 7 83 67 18 02} % Phone number
+\cvsite{https://jmkd.fr} % Personal website
+\cvmail{jmkd@yahoo.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{Je suis actuellement étudiant en M1 Big Data et fouille de données massives à l’université Paris 8. Je suis à la recherche d’un contrat de stage de trois à six mois dans le but de valider mon Master 1. Ayant le goût de l’initiative, j’aime travailler en équipe dans la mise en place d’ architecture de gestion de données distribuées, data visualisation et de Machine Learning.} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{Seaborn, Matplotlib, Plotly, Chartjs/4},{Tableau, Talend/3},{Microsoft SQL Server, SQL, MongoDB/3.5},{PostgreSQL, SQLite, JSON, XML/3.5}, {Anaconda, Jupyter Notebook, PyCharm /4},{Pandas, Numpy, Scikit-Learn, OpenCV/4.5},{Hadoop, Cloudera, Hive, Sqoop, Flume/4},{Python, R, C, Java, C++/5}}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+\skillstext{}
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experiences professionnelles}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2019-2020}{ Analyse de flux de données XML et JSON (Stage)}{BrandAlley}{-Implémentation d’algorithmes de recherche des encarts de publicités et de   promotion sur la plateforme de Brandalley.  \\-Interface de visualisation des données temporelles des encarts. \\(Symfony, PHP, JavaScript, HTML, XML, JSON).}
+	\twentyitem{2019-2021}{Restauration  (Job étudiant)}{McDonald’s}{Equipier polyvalent dans la restauration chez McDonald’s de Le Kremlin Bicêtre en temps partiel. \\Accueil Client, travail en équipe. }
+	\twentyitem{2018-2019}{Développement Web et Android (CDD)}{AfrikAppsHome}{Conception de la plateforme Togo-Campus-Virtuel de mise en ligne des sujets d’examen de l’Université. 
+	Développement des applications Android déployé sur Google Play dont Mathovore et Calculatrice AAH développés en autonomie. 
+	\\(Android Studio, Java, XML, PHP, HTML, MySQL).
+}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	PROJETS
+%----------------------------------------------------------------------------------------
+
+\section{Projets personnels et universitaires}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2020-2021}{ Analyse de données de Twitter}{}{-Configuration de l’architecture Hadoop, Flume, Hive, Sqoop.
+	\\-Récupération de données via l’API Twitter en temps réel.
+	\\-Analyse de données tweets sur la covid-19.
+	\\(Hadoop, Hive, Flume, Sqoop)}
+	\twentyitem{2020-2021}{Reconnaissance d’écriture manuscrite}{}{-Traitement d’image contenant du texte manuscrit avec OpenCV.
+	\\-Implémentation des algorithmes du KNN et SVM
+	\\(Python, OpenCV, Numpy, K-NN, SVM)
+ }
+	\twentyitem{2018-2019}{Analyse des données de la Covid-19}{}{Analyse et Data Visualisation de cas de coronavirus dans le monde et par pays en temps réel. https://jmkd.fr/covid-19
+	\\-Prédiction de nouveau cas de la Covid19 dans le futur.
+	\\(Anaconda, Python, Pandas, Scikit-Learn, Numpy, Matplotlib, Chartjs)}
+	\twentyitem{2019-2020}{Model de Machine Learning non supervisé SOM}{}{Implémentation de l’algorithme d’apprentissage non supervisé de classification de fleurs iris en C. }
+	\twentyitem{2019-2020}{Machine Learning des jeux StarCraft II et Breakthrough }{}{ 
+	-Implémentation des joueurs MoveToBeacon et FindAndDefeatZerglings de StarCraft II. 
+	\\(C++, Python, Numpy, Pandas)}
+\end{twenty}
+
+
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{Certifications}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2021}{Coursera IBM Data Scientist}{IBM}{\emph{-What is Data Science? -Tools for Data Science, -Data Science Methodology, Python for Data Science and AI
+	\\(Python, R, Dataviz, Watson Studio)}}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Formations}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2020-2022}{Master Informatique}{Université Paris 8  France}{\emph{Big Data et Fouille de Données Massives}}
+	\twentyitem{2019-2020}{Licence L3 Informatique}{Université Paris 8  France}{}
+	\twentyitem{2018-2019}{BTS  Informatique}{Cours Diderot}{Services Informatique aux Organisations              }
+	\twentyitem{2014-2017}{Licence Mathématiques}{Université de Lomé}{Mathématique fondamentale}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 

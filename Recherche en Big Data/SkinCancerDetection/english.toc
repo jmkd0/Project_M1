@@ -1,0 +1,12 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {french}{}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Issue}{4}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Input image and Dataset}{5}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Differents step of detecting tumor in image}{6}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Conclusion}{13}{0}{5}

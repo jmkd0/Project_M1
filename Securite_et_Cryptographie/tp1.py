@@ -33,7 +33,7 @@ def cesar(n, texte):
  return chiff
 
 
-def casser_cesar(n, texte):
+def dechiffrer_cesar(n, texte):
  dechiff = ""
  alph_clair = [chr(i+65) for i in range(26)]
  alph_chiff = [chr((i+n)%26+65) for i in range(26)]
@@ -48,10 +48,16 @@ def casser_cesar(n, texte):
  
  return dechiff
 
-prime_number(50)
-print(primes)
+"""def casser_key (texte_chiff):
+    keys = [i for i in range(26)]
+    for key in keys:
+        """
+#prime_number(50)
+#print(primes)
 
-chiff = cesar(3, "l'ecole ça va bien")
+#text = "QEWXIV MRJSVQEXMUYI  IX  FMK HEXE"
+text = "NZFNZF"
+chiff = cesar(11, text)
 print(chiff)
-dechiff = casser_cesar(3, "O'HFROH FD YD ELHQ")
-print( dechiff)
+#dechiff = dechiffrer_cesar(3, "O'HFROH FD YD ELHQ")
+#print( dechiff)

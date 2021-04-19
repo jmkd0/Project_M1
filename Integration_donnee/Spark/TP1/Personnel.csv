@@ -1,0 +1,11 @@
+numero;nom;prenom;ddn;adresse;logement
+1;Harrison;Gerald;20/02/2008;Paris;Locataire
+2;Roosevelt;Bill;11/07/2005;Lyon;Locataire
+3;Tyler;Franklin;05/08/1994;Lyon;Propriétaire
+4;Johnson;Woodrow;19/06/2006;Lyon;Propriétaire
+5;Harrison;Woodrow;16/01/1989;Paris;Locataire
+6;Truman;William;02/10/1994;Paris;Propriétaire
+7;Monroe;Thomas;17/07/2006;Paris;Locataire
+8;Grant;Benjamin;20/06/1997;Brest;Propriétaire
+9;Truman;Harry;03/07/1996;Brest;Locataire
+10;Harrison;Bill;23/03/1990;Marseille;Locataire
