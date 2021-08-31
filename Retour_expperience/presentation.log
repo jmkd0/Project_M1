@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.10)  29 APR 2021 15:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.10)  29 JUN 2021 01:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1356,49 +1356,49 @@ LaTeX Warning: Label `fig:L1' multiply defined.
 )
 \openout1 = `presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 58.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 59.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
- 58.
+ 59.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 59.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-58.
+59.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 59.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 58.
+ 59.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 59.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 58.
+e 59.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    ... okay on input line 59.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1458,7 +1458,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box89
-Package hyperref Info: Link coloring OFF on input line 58.
+Package hyperref Info: Link coloring OFF on input line 59.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1471,56 +1471,56 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count498
 )
-LaTeX Info: Redefining \ref on input line 58.
-LaTeX Info: Redefining \pageref on input line 58.
-LaTeX Info: Redefining \nameref on input line 58.
+LaTeX Info: Redefining \ref on input line 59.
+LaTeX Info: Redefining \pageref on input line 59.
+LaTeX Info: Redefining \nameref on input line 59.
 
 (./presentation.out) (./presentation.out)
 \@outlinefile=\write6
 \openout6 = `presentation.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/ntxtlf/m/n --> OT1/cmss/m/n on input line 58.
+(Font)                  OT1/ntxtlf/m/n --> OT1/cmss/m/n on input line 59.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/ntxtlf/b/n --> OT1/cmss/b/n on input line 58.
+(Font)                  OT1/ntxtlf/b/n --> OT1/cmss/b/n on input line 59.
 \symnumbers=\mathgroup10
 \sympureletters=\mathgroup11
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/ntxtlf/m/n on input line 58.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 58.
+(Font)                  OT1/cmss/m/n --> T1/ntxtlf/m/n on input line 59.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/ntxtlf/b/n --> T1/qhv/b/n on input line 58.
+(Font)                  OT1/ntxtlf/b/n --> T1/qhv/b/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/ntxtlf/b/n --> T1/qhv/b/n on input line 58.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 58.
+(Font)                  OT1/ntxtlf/b/n --> T1/qhv/b/n on input line 59.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  T1/qhv/m/n --> T1/qhv/m/n on input line 58.
+(Font)                  T1/qhv/m/n --> T1/qhv/m/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/qhv/b/n --> T1/qhv/m/n on input line 58.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 58.
+(Font)                  T1/qhv/b/n --> T1/qhv/m/n on input line 59.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/ntxtlf/m/it --> T1/qhv/m/it on input line 58.
+(Font)                  OT1/ntxtlf/m/it --> T1/qhv/m/it on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/ntxtlf/b/it --> T1/qhv/m/it on input line 58.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 58.
+(Font)                  OT1/ntxtlf/b/it --> T1/qhv/m/it on input line 59.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  T1/ntxtt/m/n --> T1/ntxtt/m/n on input line 58.
+(Font)                  T1/ntxtt/m/n --> T1/ntxtt/m/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/ntxtt/b/n --> T1/ntxtt/m/n on input line 58.
+(Font)                  T1/ntxtt/b/n --> T1/ntxtt/m/n on input line 59.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/qhv/m/n --> T1/qhv/b/n on input line 58.
+(Font)                  T1/qhv/m/n --> T1/qhv/b/n on input line 59.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/qhv/m/it --> T1/qhv/b/it on input line 58.
+(Font)                  T1/qhv/m/it --> T1/qhv/b/it on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/ntxtlf/b/n on input line 58.
+(Font)                  OT1/cmss/b/n --> T1/ntxtlf/b/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/qhv/b/n --> T1/qhv/b/n on input line 58.
+(Font)                  T1/qhv/b/n --> T1/qhv/b/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/qhv/m/n --> T1/qhv/b/n on input line 58.
+(Font)                  T1/qhv/m/n --> T1/qhv/b/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/qhv/m/it --> T1/qhv/b/it on input line 58.
+(Font)                  T1/qhv/m/it --> T1/qhv/b/it on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/ntxtt/m/n --> T1/ntxtt/b/n on input line 58.
+(Font)                  T1/ntxtt/m/n --> T1/ntxtt/b/n on input line 59.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1548,9 +1548,9 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 \c@mv@tabular=\count499
 \c@mv@boldtabular=\count500
-LaTeX Info: Redefining \degres on input line 58.
-LaTeX Info: Redefining \dots on input line 58.
-LaTeX Info: Redefining \up on input line 58.
+LaTeX Info: Redefining \degres on input line 59.
+LaTeX Info: Redefining \dots on input line 59.
+LaTeX Info: Redefining \up on input line 59.
 Package biblatex Info: Trying to load language 'french'...
 Package biblatex Info: ... file 'french.lbx' found.
 
@@ -1566,33 +1566,33 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'presentation.bbl' not found.
 
 No file presentation.bbl.
-Package biblatex Info: Reference section=0 on input line 58.
-Package biblatex Info: Reference segment=0 on input line 58.
+Package biblatex Info: Reference section=0 on input line 59.
+Package biblatex Info: Reference segment=0 on input line 59.
 \c@lstlisting=\count501
 (./presentation.nav)
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 58.
+(Font)              scaled to size 6.0pt on input line 59.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 61.
+(Font)              scaled to size 14.4pt on input line 63.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 61.
-<images/paris8_1.png, id=80, 245.91875pt x 124.465pt>
+(Font)              scaled to size 8.0pt on input line 63.
+<images/paris8_1.png, id=72, 245.91875pt x 124.465pt>
 File: images/paris8_1.png Graphic file (type png)
 <use images/paris8_1.png>
-Package pdftex.def Info: images/paris8_1.png  used on input line 61.
+Package pdftex.def Info: images/paris8_1.png  used on input line 63.
 (pdftex.def)             Requested size: 71.13188pt x 36.00085pt.
-<images/tc_logo.png, id=81, 399.4925pt x 126.4725pt>
+<images/tc_logo.png, id=73, 399.4925pt x 126.4725pt>
 File: images/tc_logo.png Graphic file (type png)
 <use images/tc_logo.png>
-Package pdftex.def Info: images/tc_logo.png  used on input line 61.
+Package pdftex.def Info: images/tc_logo.png  used on input line 63.
 (pdftex.def)             Requested size: 71.13188pt x 22.51897pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 4.0pt on input line 61.
+(Font)              scaled to size 4.0pt on input line 63.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./images/paris8_1.png> <./images/tc_logo.png>] (./presentation.toc)
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 65.
+(Font)              scaled to size 10.0pt on input line 67.
  [2
 
 ] [3
@@ -1601,32 +1601,32 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 [4
 
 ]
-<images/contrat.jpeg, id=248, 1108.14pt x 508.90125pt>
+<images/contrat.jpeg, id=235, 1108.14pt x 508.90125pt>
 File: images/contrat.jpeg Graphic file (type jpg)
 <use images/contrat.jpeg>
-Package pdftex.def Info: images/contrat.jpeg  used on input line 92.
+Package pdftex.def Info: images/contrat.jpeg  used on input line 93.
 (pdftex.def)             Requested size: 312.9825pt x 136.5743pt.
 
-Overfull \hbox (5.69263pt too wide) in paragraph at lines 92--92
+Overfull \hbox (5.69263pt too wide) in paragraph at lines 93--93
  [] 
  []
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 92.
+(Font)              scaled to size 10.0pt on input line 93.
 
-Overfull \vbox (5.26247pt too high) detected at line 92
+Overfull \vbox (5.26247pt too high) detected at line 93
  []
 
 [5
 
  <./images/contrat.jpeg>]
-<images/moyen_paiement.jpeg, id=287, 949.5475pt x 562.1pt>
+<images/moyen_paiement.jpeg, id=272, 949.5475pt x 562.1pt>
 File: images/moyen_paiement.jpeg Graphic file (type jpg)
 <use images/moyen_paiement.jpeg>
-Package pdftex.def Info: images/moyen_paiement.jpeg  used on input line 101.
+Package pdftex.def Info: images/moyen_paiement.jpeg  used on input line 100.
 (pdftex.def)             Requested size: 312.97493pt x 136.57068pt.
 
-Overfull \hbox (5.68506pt too wide) in paragraph at lines 101--101
+Overfull \hbox (5.68506pt too wide) in paragraph at lines 100--100
  [] 
  []
 
@@ -1634,102 +1634,64 @@ pdfTeX warning (ext4): destination with the same identifier (name{fig:L1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.101 \end{frame}
+l.100 \end{frame}
                  
-Overfull \vbox (5.25885pt too high) detected at line 101
+Overfull \vbox (5.25885pt too high) detected at line 100
  []
 
 [6
 
- <./images/moyen_paiement.jpeg>]
-<images/all_tables.jpeg, id=323, 699.61375pt x 514.92375pt>
-File: images/all_tables.jpeg Graphic file (type jpg)
-<use images/all_tables.jpeg>
-Package pdftex.def Info: images/all_tables.jpeg  used on input line 115.
-(pdftex.def)             Requested size: 312.98714pt x 136.57199pt.
+ <./images/moyen_paiement.jpeg>] [7
 
-Overfull \hbox (5.69727pt too wide) in paragraph at lines 115--115
- [] 
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{fig:L1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.115 \end{frame}
-                 
-Overfull \vbox (47.06018pt too high) detected at line 115
- []
-
-[7
-
- <./images/all_tables.jpeg>]
-<images/transaction.jpeg, id=359, 1600.98125pt x 770.88pt>
-File: images/transaction.jpeg Graphic file (type jpg)
-<use images/transaction.jpeg>
-Package pdftex.def Info: images/transaction.jpeg  used on input line 124.
-(pdftex.def)             Requested size: 312.9596pt x 147.95082pt.
-
-Overfull \hbox (5.66972pt too wide) in paragraph at lines 124--124
- [] 
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{fig:L1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.124 \end{frame}
-                 
-Overfull \vbox (16.63899pt too high) detected at line 124
- []
-
-[8
-
- <./images/transaction.jpeg>]
-<images/stores.jpeg, id=393, 1087.06125pt x 639.38875pt>
-File: images/stores.jpeg Graphic file (type jpg)
-<use images/stores.jpeg>
-Package pdftex.def Info: images/stores.jpeg  used on input line 132.
-(pdftex.def)             Requested size: 312.98383pt x 142.26598pt.
-
-Overfull \hbox (5.69395pt too wide) in paragraph at lines 132--132
- [] 
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{fig:L1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.132 \end{frame}
-                 
-Overfull \vbox (10.95415pt too high) detected at line 132
- []
-
-[9
-
- <./images/stores.jpeg>]
+]
 LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
-e 141.
+e 121.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 141.
- [10
+(Font)              scaled to size 10.95pt on input line 121.
+ [8
 
-] [11
+] [9
 
-] [12
+] [10
 
 ]
-<images/arbre.jpeg, id=524, 908.39375pt x 416.55624pt>
-File: images/arbre.jpeg Graphic file (type jpg)
-<use images/arbre.jpeg>
-Package pdftex.def Info: images/arbre.jpeg  used on input line 173.
-(pdftex.def)             Requested size: 312.98035pt x 122.34274pt.
+[11
 
-Overfull \hbox (5.69048pt too wide) in paragraph at lines 173--173
+]
+<images/Building_scoring_2.png, id=476, 1645.14626pt x 807.015pt>
+File: images/Building_scoring_2.png Graphic file (type png)
+<use images/Building_scoring_2.png>
+Package pdftex.def Info: images/Building_scoring_2.png  used on input line 151.
+
+(pdftex.def)             Requested size: 327.19092pt x 156.48683pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:L1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.151 \end{frame}
+                 
+Overfull \hbox (19.90105pt too wide) in paragraph at lines 151--151
+ [] 
+ []
+
+
+Overfull \vbox (9.01001pt too high) detected at line 151
+ []
+
+[12
+
+ <./images/Building_scoring_2.png>]
+<images/data_1.png, id=509, 825.68475pt x 238.491pt>
+File: images/data_1.png Graphic file (type png)
+<use images/data_1.png>
+Package pdftex.def Info: images/data_1.png  used on input line 161.
+(pdftex.def)             Requested size: 341.44328pt x 128.0372pt.
+
+Overfull \hbox (34.15341pt too wide) in paragraph at lines 161--161
  [] 
  []
 
@@ -1737,18 +1699,62 @@ pdfTeX warning (ext4): destination with the same identifier (name{fig:L1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.173 \end{frame}
+l.161 \end{frame}
                  
-Overfull \vbox (32.83093pt too high) detected at line 173
+Overfull \vbox (9.24039pt too high) detected at line 161
  []
 
 [13
 
- <./images/arbre.jpeg>] [14
+ <./images/data_1.png>]
+<images/data_2.png, id=545, 833.514pt x 237.88875pt>
+File: images/data_2.png Graphic file (type png)
+<use images/data_2.png>
+Package pdftex.def Info: images/data_2.png  used on input line 168.
+(pdftex.def)             Requested size: 312.97397pt x 145.11554pt.
 
-] [15
+Overfull \hbox (5.6841pt too wide) in paragraph at lines 168--168
+ [] 
+ []
 
-] [16
+pdfTeX warning (ext4): destination with the same identifier (name{fig:L1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.168 \end{frame}
+                 
+Overfull \vbox (11.71872pt too high) detected at line 168
+ []
+
+[14
+
+ <./images/data_2.png>]
+<images/data_info.png, id=579, 658.8615pt x 250.536pt>
+File: images/data_info.png Graphic file (type png)
+<use images/data_info.png>
+Package pdftex.def Info: images/data_info.png  used on input line 175.
+(pdftex.def)             Requested size: 312.98256pt x 145.10835pt.
+
+Overfull \hbox (5.69269pt too wide) in paragraph at lines 175--175
+ [] 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:L1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.175 \end{frame}
+                 
+Overfull \vbox (13.79652pt too high) detected at line 175
+ []
+
+[15
+
+ <./images/data_info.png>] [16
+
+] [17
+
+] [18
 
 ]
 \tf@nav=\write7
@@ -1760,14 +1766,20 @@ Overfull \vbox (32.83093pt too high) detected at line 173
 \tf@snm=\write9
 \openout9 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 206.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 206.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
-Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 04BD336EA11C0C5BB9E3236CD26B0C02;834.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 206.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 206.
 
+
+Package rerunfilecheck Warning: File `presentation.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `presentation.out':
+(rerunfilecheck)             Before: 2A66C97F36AE9ABDEE093D57D28C39ED;641
+(rerunfilecheck)             After:  2E007ED9B2A9F26B116C62FC2CF0BF8D;640.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1777,9 +1789,9 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  34236 strings out of 481239
- 653271 string characters out of 5920377
- 1294585 words of memory out of 5000000
- 48773 multiletter control sequences out of 15000+600000
+ 653269 string characters out of 5920377
+ 1294606 words of memory out of 5000000
+ 48771 multiletter control sequences out of 15000+600000
  553213 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,81p,817b,2314s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1787,10 +1799,10 @@ Here is how much of TeX's memory you used:
 f-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-sc.enc}{/usr/share/texlive/texmf-dist/f
 onts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/share/texmf/fonts/type1/public/tex-gy
 re/qtmr.pfb>
-Output written on presentation.pdf (16 pages, 878054 bytes).
+Output written on presentation.pdf (18 pages, 447898 bytes).
 PDF statistics:
- 680 PDF objects out of 1000 (max. 8388607)
- 626 compressed objects within 7 object streams
- 47 named destinations out of 1000 (max. 500000)
- 223 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 731 PDF objects out of 1000 (max. 8388607)
+ 672 compressed objects within 7 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 207 words of extra memory for PDF output out of 10000 (max. 10000000)
 

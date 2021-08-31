@@ -41,21 +41,23 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-\title[Identification de la source d'une transaction] 
-{Identification de store et de retailer à partir des données de paiement}
+\title[Affectation de transaction à un store grace au Scoring] 
+{Affectation de transaction à un store grace au Scoring}
 %\subtitle {ne compléter que si l'article possède un sous-titre}
 \author[Komlan Dantodji] 
 {Komlan Jean-Marie DANTODJI}
 
 \institute[]
 {
-  Etudiant en M1 Big Data
+  Etudiant en M1 Big Data, Université Paris 8
   \and
-  Université Paris 8}
-\date{April 29, 2020}
+  Encadrante universitaire: Mme Rakia JAZIRI\\
+  Encadrant entreprise:    Mr Thomas Moulin}
+\date{Jun 17, 2020}
 
 
 \begin{document}
+
 \begin{frame}
   \titlepage
 \end{frame}
@@ -73,112 +75,113 @@
 \end{itemize}
 \end{frame}
 
-\subsection{Solution proposée}
-\begin{frame}{Solution proposée}
+\subsection{Solutions proposées}
+\begin{frame}{Solutions proposées}
 \begin{itemize}
 		\item Transaction Connect signe des contrats avec des foncières
-		\item Fournit des services et outils de décision aux clients foncières (Dashboard, enrichissement des données)
-		\item Transformation de la carte bancaire en carte de fidélité
+		\item Fournit des services et outils de décisions aux clients foncières (Dashboard, enrichissement des données)
+		\item Fidélisation de la carte bancaire
 		\item Notification et Validation des Cashbacks aux clients acheteurs
 \end{itemize}
 \end{frame}
-\subsection{Les contrats avec les foncières}
-\begin{frame}{Les contrats avec les foncières}
+\begin{frame}{Les modes d'intégrations des Clients Business (B)}
 \begin{figure}[H]
     \includegraphics[width=11cm,height=4.8cm]{images/contrat.jpeg}
-    \caption{[1] Les modes d'intégration}
+    \caption{ modes d'intégration B}
     \label{fig:L1}
 \end{figure}
 \end{frame}
-
-\subsection{Les moyens de connexion de transaction}
-\begin{frame}{Les moyens de connexion de transaction}
+\begin{frame}{Les modes d'intégration des Clients C}
 \begin{figure}[H]
     \includegraphics[width=11cm,height=4.8cm]{images/moyen_paiement.jpeg}
-    \caption{[1] Les moyens de connexion de transaction}
+    \caption{ Mode d'intégration C}
     \label{fig:L1}
 \end{figure}
 \end{frame}
-
-\section{Datasets}
-\subsection{Source de donnée}
-\begin{frame}{Source de données}
-\begin{itemize}
-		\item Les données proviennent des providers qui recupèrent les transactions auprès des Banques ("fidele", "Budget Insight")
-		\item On dispose au total 119 tables dans la base de donnée
-\end{itemize}
-\begin{figure}[H]
-    \includegraphics[width=11cm,height=4.8cm]{images/all_tables.jpeg}
-    \caption{[1] Les moyens de connexion de transaction}
-    \label{fig:L1}
-\end{figure}
-\end{frame}
-
-
-\begin{frame}{Table de transaction (39 cols, 2361642 rows)}
-\begin{figure}[H]
-    \includegraphics[width=11cm,height=5.2cm]{images/transaction.jpeg}
-    \caption{[1] Les moyens de connexion de transaction}
-    \label{fig:L1}
-\end{figure}
-\end{frame} 
-
-\begin{frame}{Table des stores (33 cols, 125767 rows) }
-\begin{figure}[H]
-    \includegraphics[width=11cm,height=5cm]{images/stores.jpeg}
-    \caption{[1] Les moyens de connexion de transaction}
-    \label{fig:L1}
-\end{figure}
-\end{frame} 
 
 \section{Problématique}
 \begin{frame}{Problématique}
 \begin{itemize}
-		\item Identifier dans quel store le client a effectué le paiement 
-		\item En se basant sur le label contenu dans la transaction
-		\item EX: "CB MONOPRIX 0295 02/03/21 10€" 
+		\item Les labels de transactions ne contiennent pas des informations nécessaires à l'affectation à un store
+		\item Affectation des transactions à un store grace au scoring
+		\item Automatisation des Modèles du scoring à un apprentissage mensuel
 \end{itemize}
 \end{frame} 
 
 \section{Etat de l'art}
-\begin{frame}{Etat de l'art}
+\subsection{Pattern Regex}
+\begin{frame}{Etat de l'art: Pattern Regex}
 \begin{itemize}
-		\item API Google Place ID pour détecter une région à partir de la ville et un lieu connu
+		\item Patterns Regex \\
+				Exemple Label: "CB MONOPRIX 0295 Paris 02/03/21 10€" \\
+				Retailer pattern: '.*\textbackslash mMONOPRIX\textbackslash M.*'\\
+				Store pattern: '.*\textbackslash mMONOPRIX 0295\textbackslash M.*'
+		\item Une transaction ayant ce label est affectable parcequ'on peut identifier le retailer MONOPRIX et le store MONOPRIX 0295
+\end{itemize}
+\end{frame} 
+\subsection{Store Locator}
+\begin{frame}{Etat de l'art: Store Locator}
+\begin{itemize}
+		\item Store Locator \\
+				Exemple Label: "CB MONOPRIX Paris 02/03/21 10€" \\
+				Ville: Paris\\
+				Retailer pattern: '.*\textbackslash mMONOPRIX\textbackslash M.*'\\
+		\item Si pour une transaction on connait la ville et le Retailer, Store Locator peut affecter cette transaction à un store si cette dernière est unique dans la ville
+\end{itemize}
+\end{frame} 
+\subsection{Alpha / Alpha City}
+\begin{frame}{Etat de l'art: Alpha / Alpha City}
+\begin{itemize}
+		\item Alpha / Alpha City (basé sur la détermination du Google Place Id d'une zone géographique)
 \end{itemize}
 \end{frame} 
 
-\section{Algorithmes utilisés}
-\subsection{Algorithmes utilisés}
-\begin{frame}{Algorithmes utilisés}
+\section{Algorithme du Scoring}
+\begin{frame}{Algorithme du Scoring: Préalables}
 \begin{itemize}
-		\item Store Locatore (connaissant le Retailer et la Ville)
-		\item Scoring (basé sur la probabilité)
-		\item Alpha / Alpha City (avec l'API Google MAP)
-		\item Patterns Regrex 
-		
+		\item Migration des requetes de calcule de Postgres vers Redshift Amazon
+		\item Calcul des features nécessaires à l'apprentissage
 \end{itemize}
-\end{frame} 
-
-\subsection{Algorithmes de Store Locator}
-\begin{frame}{Algorithmes de Store Locator}
+\end{frame}
+\begin{frame}{Features Engineering }
+\begin{figure}[H]
+    \includegraphics[width=11.5cm,height=5.5cm]{images/Building_scoring_2.png}
+    \label{fig:L1}
+\end{figure}
+\end{frame}
+\begin{frame}{Jeu de données}
 \begin{itemize}
-		\item Initialiser toutes les villes, regions du pays dans un arbre
-		\item Initialiser les Shoppings Hub (Les centres commerciaux de la region)
+		\item Exemple de transactions du centre "Les 4 Temps" de Puteaux
 \end{itemize}
 \begin{figure}[H]
-    \includegraphics[width=11cm,height=4.3cm]{images/arbre.jpeg}
-    \caption{[1] Arbre des zones géographiques}
+    \includegraphics[width=12cm,height=4.5cm]{images/data_1.png}
+    \caption{ Transactions considérées}
+    \label{fig:L1}
+\end{figure}
+\end{frame}
+\begin{frame}{Jeu de données}
+\begin{figure}[H]
+    \includegraphics[width=11cm,height=5.1cm]{images/data_2.png}
+    \caption{ Transactions considérées}
     \label{fig:L1}
 \end{figure}
 \end{frame} 
-\begin{frame}{Algorithmes de Store Locator}
+\begin{frame}{Informations données}
+\begin{figure}[H]
+    \includegraphics[width=11cm,height=5.1cm]{images/data_info.png}
+    \caption{ Les types de features}
+    \label{fig:L1}
+\end{figure}
+\end{frame} 
+
+\section{Apprentissage}
+\begin{frame}{Apprentissage}
 \begin{itemize}
-		\item Ajouter des patterns de détection des mots clés dans les labels (EX: marque, Numero de store, ville)
-		\item Faire du monitoring pour modifier les patterns qui ne détectent pas de zone de transaction
+		\item XGBoost
+		\item Decision Tree
+		\item Random Forest
 \end{itemize}
-
 \end{frame}
-
 
 
 
@@ -186,7 +189,10 @@
 \section{Conclusion}
 \begin{frame}{Conclusion}
 \begin{itemize}
-		\item Pour le moment je suis à létape de l'initialisation de store locatore pour la Grande Bretagne. 
+		\item Prochainement, Metrics de choix de modèle
+		\item Ettendre le modele aux autres centres
+		\item Créer un modele propre aux grands centres
+		\item Automatiser l'apprentissage à chaque mois
 \end{itemize}
 \end{frame}
 

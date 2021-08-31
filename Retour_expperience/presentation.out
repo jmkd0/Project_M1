@@ -1,13 +1,11 @@
 \BOOKMARK [2][]{Outline0.1}{Introduction}{}% 1
 \BOOKMARK [3][]{Outline0.1.1.3}{Pr\351sentation de l'entreprise}{Outline0.1}% 2
-\BOOKMARK [3][]{Outline0.1.2.4}{Solution propos\351e}{Outline0.1}% 3
-\BOOKMARK [3][]{Outline0.1.3.5}{Les contrats avec les fonci\350res}{Outline0.1}% 4
-\BOOKMARK [3][]{Outline0.1.4.6}{Les moyens de connexion de transaction}{Outline0.1}% 5
-\BOOKMARK [2][]{Outline0.2}{Datasets}{}% 6
-\BOOKMARK [3][]{Outline0.2.1.7}{Source de donn\351e}{Outline0.2}% 7
-\BOOKMARK [2][]{Outline0.3}{Probl\351matique}{}% 8
-\BOOKMARK [2][]{Outline0.4}{Etat de l'art}{}% 9
-\BOOKMARK [2][]{Outline0.5}{Algorithmes utilis\351s}{}% 10
-\BOOKMARK [3][]{Outline0.5.1.12}{Algorithmes utilis\351s}{Outline0.5}% 11
-\BOOKMARK [3][]{Outline0.5.2.13}{Algorithmes de Store Locator}{Outline0.5}% 12
-\BOOKMARK [2][]{Outline0.6}{Conclusion}{}% 13
+\BOOKMARK [3][]{Outline0.1.2.4}{Solutions propos\351es}{Outline0.1}% 3
+\BOOKMARK [2][]{Outline0.2}{Probl\351matique}{}% 4
+\BOOKMARK [2][]{Outline0.3}{Etat de l'art}{}% 5
+\BOOKMARK [3][]{Outline0.3.1.8}{Pattern Regex}{Outline0.3}% 6
+\BOOKMARK [3][]{Outline0.3.2.9}{Store Locator}{Outline0.3}% 7
+\BOOKMARK [3][]{Outline0.3.3.10}{Alpha / Alpha City}{Outline0.3}% 8
+\BOOKMARK [2][]{Outline0.4}{Algorithme du Scoring}{}% 9
+\BOOKMARK [2][]{Outline0.5}{Apprentissage}{}% 10
+\BOOKMARK [2][]{Outline0.6}{Conclusion}{}% 11
