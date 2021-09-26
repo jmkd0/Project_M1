@@ -1,0 +1,35 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\selectlanguage *{french}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{1}{Présentation de l'entreprise}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{2}{Solutions proposées}{4}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Contexte}{7}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Problématique}{9}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{1}{Objectif}{9}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{2}{Données}{10}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{État de l'art}{14}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{1}{Catégories d'algorithmes utilisés}{14}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{2}{Support Vector Machine}{15}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{3}{SVM: Déterminsation d'hyperplan}{16}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{4}{Arbre de décision}{17}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{5}{Forêst aléatoire}{20}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{6}{Fonctionnement du K-NN}{21}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Système réalisé}{24}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {6}{Conclusion}{25}{0}{6}

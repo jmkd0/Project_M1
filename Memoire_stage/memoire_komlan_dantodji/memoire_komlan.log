@@ -1,0 +1,2122 @@
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.6) (preloaded format=xelatex 2021.9.1)  22 SEP 2021 09:12
+entering extended mode
+**./memoire_komlan.tex
+(memoire_komlan.tex
+LaTeX2e <2021-06-01>
+L3 programming layer <2021-06-01>
+(C:\Program Files\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2021/02/12 v1.4n Standard LaTeX document class
+(C:\Program Files\MiKTeX\tex/latex/base\bk12.clo
+File: bk12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count178
+\c@chapter=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2021-06-05 v7.00l Hypertext links for LaTeX
+
+(C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Program Files\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:\Program Files\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(C:\Program Files\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Program Files\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(C:\Program Files\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Program Files\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Program Files\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen139
+\Hy@linkcounter=\count187
+\Hy@pagecounter=\count188
+
+(C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2021-06-05 v7.00l Hyperref: PDFDocEncoding definition (HO)
+)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-05 v7.00l Hyperref: patches for babel la
+nguages
+)
+(C:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Program Files\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count189
+
+(C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2021-06-05 v7.00l Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count190
+
+(C:\Program Files\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen140
+
+(C:\Program Files\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Program Files\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count191
+\Field@Width=\dimen141
+\Fld@charsize=\dimen142
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+
+(C:\Program Files\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count192
+\c@Item=\count193
+\c@Hfootnote=\count194
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hxetex.def
+File: hxetex.def 2021-06-05 v7.00l Hyperref driver for XeTeX
+
+(C:\Program Files\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box50
+\c@Hy@AnnotLevel=\count195
+\HyField@AnnotCount=\count196
+\Fld@listcount=\count197
+\c@bookmark@seq@number=\count198
+
+(C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(C:\Program Files\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+(C:\Program Files\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip49
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 9.
+
+(C:\Program Files\MiKTeX\tex/latex/import\import.sty
+Package: import 2020/04/01  v 6.2
+) (Preambule.tex
+(C:\Program Files\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip50
+\f@nch@O@elh=\skip51
+\f@nch@O@erh=\skip52
+\f@nch@O@olh=\skip53
+\f@nch@O@orh=\skip54
+\f@nch@O@elf=\skip55
+\f@nch@O@erf=\skip56
+\f@nch@O@olf=\skip57
+\f@nch@O@orf=\skip58
+)
+(C:\Program Files\MiKTeX\tex/latex/titling\titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip59
+\thanksmargin=\skip60
+\droptitle=\skip61
+)
+(C:\Program Files\MiKTeX\tex/latex/emptypage\emptypage.sty
+Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty 
+pages
+)
+(C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count199
+\Gm@cntv=\count266
+\c@Gm@tempcnt=\count267
+\Gm@bindingoffset=\dimen143
+\Gm@wd@mp=\dimen144
+\Gm@odd@mp=\dimen145
+\Gm@even@mp=\dimen146
+\Gm@layoutwidth=\dimen147
+\Gm@layoutheight=\dimen148
+\Gm@layouthoffset=\dimen149
+\Gm@layoutvoffset=\dimen150
+\Gm@dimlist=\toks17
+
+(C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Program Files\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen151
+\ESO@tempdimb=\dimen152
+
+(C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+(C:\Program Files\MiKTeX\tex/latex/tools\layout.sty
+Package: layout 2021-03-10 v1.2e Show layout parameters
+\oneinch=\count268
+\cnt@paperwidth=\count269
+\cnt@paperheight=\count270
+\cnt@hoffset=\count271
+\cnt@voffset=\count272
+\cnt@textheight=\count273
+\cnt@textwidth=\count274
+\cnt@topmargin=\count275
+\cnt@oddsidemargin=\count276
+\cnt@evensidemargin=\count277
+\cnt@headheight=\count278
+\cnt@headsep=\count279
+\cnt@marginparsep=\count280
+\cnt@marginparwidth=\count281
+\cnt@marginparpush=\count282
+\cnt@footskip=\count283
+\fheight=\count284
+\ref@top=\count285
+\ref@hoffset=\count286
+\ref@voffset=\count287
+\ref@head=\count288
+\ref@body=\count289
+\ref@foot=\count290
+\ref@margin=\count291
+\ref@marginwidth=\count292
+\ref@marginpar=\count293
+\Interval=\count294
+\ExtraYPos=\count295
+\PositionX=\count296
+\PositionY=\count297
+\ArrowLength=\count298
+)
+(C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip62
+\multirow@cntb=\count299
+\multirow@dima=\skip63
+\bigstrutjot=\dimen153
+)
+(C:\Program Files\MiKTeX\tex/latex/tools\array.sty
+Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
+\col@sep=\dimen154
+\ar@mcellbox=\box51
+\extrarowheight=\dimen155
+\NC@list=\toks18
+\extratabsurround=\skip64
+\backup@length=\skip65
+\ar@cellbox=\box52
+)
+(C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
+\LTleft=\skip66
+\LTright=\skip67
+\LTpre=\skip68
+\LTpost=\skip69
+\LTchunksize=\count300
+\LTcapwidth=\dimen156
+\LT@head=\box53
+\LT@firsthead=\box54
+\LT@foot=\box55
+\LT@lastfoot=\box56
+\LT@gbox=\box57
+\LT@cols=\count301
+\LT@rows=\count302
+\c@LT@tables=\count303
+\c@LT@chunks=\count304
+\LT@p@ftn=\toks19
+)
+(C:\Program Files\MiKTeX\tex/latex/appendix\appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count305
+\c@@ppsavesec=\count306
+\c@@ppsaveapp=\count307
+)
+(C:\Program Files\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count308
+\lst@gtempboxa=\box58
+\lst@token=\toks20
+\lst@length=\count309
+\lst@currlwidth=\dimen157
+\lst@column=\count310
+\lst@pos=\count311
+\lst@lostspace=\dimen158
+\lst@width=\dimen159
+\lst@newlines=\count312
+\lst@lineno=\count313
+\lst@maxwidth=\dimen160
+
+(C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count314
+\lst@skipnumbers=\count315
+\lst@framebox=\box59
+)
+(C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(C:\Program Files\MiKTeX\tex/latex/minitoc\minitoc.sty
+Package: minitoc 2018/07/12 v62 Package minitoc
+
+(C:\Program Files\MiKTeX\tex/latex/minitoc\mtcmess.sty
+Package: mtcmess 2006/03/14
+)
+Package minitoc Info: I0001
+(minitoc)             *** minitoc package, version 62 ***.
+\tf@mtc=\write3
+\mtcindent=\skip70
+\mtcskipamount=\skip71
+Package minitoc Info: I0005
+(minitoc)             compatible with hyperref.
+Package minitoc Info: I0023
+(minitoc)             part level macros available.
+Package minitoc Info: I0003
+(minitoc)             chapter level macros available.
+\mtc@toks=\toks21
+\mtc@strutbox=\box60
+\mtc@hstrutbox=\box61
+Package minitoc Info: I0002
+(minitoc)             Autoconfiguration of extensions.
+\openout3 = `memoire_komlan.mtc0'.
+
+\openout3 = `memoire_komlan.mtc'.
+
+ (memoire_komlan.mtc0)
+Package minitoc Info: I0012
+(minitoc)             Long extensions (Unix-like) will be used.
+Package minitoc Info: I0031
+(minitoc)             ==> this version is configured for UNIX-like 
+(minitoc)                 (long extensions) file names.
+\openout3 = `memoire_komlan.mtc'.
+
+\openout3 = `memoire_komlan.mtc0'.
+
+\c@mtc=\count316
+\c@minitocdepth=\count317
+\c@ptc=\count318
+\c@parttocdepth=\count319
+\ptcindent=\skip72
+Package minitoc Info: I0010
+(minitoc)             The english language is selected.
+(minitoc)              on input line 4910.
+
+(C:\Program Files\MiKTeX\tex/latex/minitoc\english.mld
+File: english.mld 2006/01/13
+)
+(C:\Program Files\MiKTeX\tex/latex/minitoc\english.mld
+File: english.mld 2006/01/13
+)
+Package minitoc Info: I0010
+(minitoc)             The francais language is selected.
+(minitoc)              on input line 4911.
+
+(C:\Program Files\MiKTeX\tex/latex/minitoc\francais.mld
+File: francais.mld 2004/12/14
+Package minitoc Info: I0010
+(minitoc)             The french language is selected.
+(minitoc)              on input line 74.
+
+(C:\Program Files\MiKTeX\tex/latex/minitoc\french.mld
+File: french.mld 2006/03/21
+)))
+(C:\Program Files\MiKTeX\tex/latex/shorttoc\shorttoc.sty
+Package: shorttoc 2002/08/20 v1.3 Short table of contents (JPFD)
+)
+(C:\Program Files\MiKTeX\tex/latex/fontspec\fontspec.sty
+(C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+(C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2021-06-01 L3 programming layer (loader) 
+
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-xetex.def
+File: l3backend-xetex.def 2021-05-07 L3 backend support: XeTeX
+ ()
+\c__kernel_sys_dvipdfmx_version_int=\count320
+\l__color_backend_stack_int=\count321
+\g__color_backend_stack_int=\count322
+\g__graphics_track_int=\count323
+\l__pdf_internal_box=\box62
+\g__pdf_backend_object_int=\count324
+\g__pdf_backend_annotation_int=\count325
+\g__pdf_backend_link_int=\count326
+))
+Package: xparse 2021-06-01 L3 Experimental document command parser
+)
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+
+(C:\Program Files\MiKTeX\tex/latex/fontspec\fontspec-xetex.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count327
+\l__fontspec_language_int=\count328
+\l__fontspec_strnum_int=\count329
+\l__fontspec_tmp_int=\count330
+\l__fontspec_tmpa_int=\count331
+\l__fontspec_tmpb_int=\count332
+\l__fontspec_tmpc_int=\count333
+\l__fontspec_em_int=\count334
+\l__fontspec_emdef_int=\count335
+\l__fontspec_strong_int=\count336
+\l__fontspec_strongdef_int=\count337
+\l__fontspec_tmpa_dim=\dimen161
+\l__fontspec_tmpb_dim=\dimen162
+\l__fontspec_tmpc_dim=\dimen163
+
+(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:\Program Files\MiKTeX\tex/latex/fontspec\fontspec.cfg)))
+(C:\Program Files\MiKTeX\tex/xelatex/xunicode\xunicode.sty
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
+other characters in Unicode lower plane
+
+(C:\Program Files\MiKTeX\tex/latex/tipa\t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+)
+\tipaTiiicode=\count338
+\tipasavetokens=\toks22
+\tipachecktokens=\toks23
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+)
+\Gin@req@height=\dimen164
+\Gin@req@width=\dimen165
+))
+(C:\Program Files\MiKTeX\tex/latex/polyglossia\polyglossia.sty
+Package: polyglossia 2021/04/12 v1.53 Modern multilingual typesetting with XeLa
+TeX and LuaLaTeX
+
+(C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count339
+)
+(C:\Program Files\MiKTeX\tex/latex/makecmds\makecmds.sty
+Package: makecmds 2009/09/03 v1.0a extra command making commands
+)
+(C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks24
+\XKV@tempa@toks=\toks25
+)
+\XKV@depth=\count340
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+Package: l3keys2e 2021-06-01 LaTeX2e option processing using LaTeX3 keys
+)
+\xpg@normalclass=\XeTeXcharclass1
+
+(C:\Program Files\MiKTeX\tex/latex/polyglossia\gloss-latex.ldf
+File: gloss-latex.ldf polyglossia: module for default language
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+)
+Package polyglossia Info: Default language is latex.
+)
+(C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+
+(C:\Program Files\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count341
+
+(C:\Program Files\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count342
+\c@listtotal=\count343
+\c@listcount=\count344
+\c@liststart=\count345
+\c@liststop=\count346
+\c@citecount=\count347
+\c@citetotal=\count348
+\c@multicitecount=\count349
+\c@multicitetotal=\count350
+\c@instcount=\count351
+\c@maxnames=\count352
+\c@minnames=\count353
+\c@maxitems=\count354
+\c@minitems=\count355
+\c@citecounter=\count356
+\c@maxcitecounter=\count357
+\c@savedcitecounter=\count358
+\c@uniquelist=\count359
+\c@uniquename=\count360
+\c@refsection=\count361
+\c@refsegment=\count362
+\c@maxextratitle=\count363
+\c@maxextratitleyear=\count364
+\c@maxextraname=\count365
+\c@maxextradate=\count366
+\c@maxextraalpha=\count367
+\c@abbrvpenalty=\count368
+\c@highnamepenalty=\count369
+\c@lownamepenalty=\count370
+\c@maxparens=\count371
+\c@parenlevel=\count372
+\blx@tempcnta=\count373
+\blx@tempcntb=\count374
+\blx@tempcntc=\count375
+\blx@maxsection=\count376
+\blx@maxsegment@0=\count377
+\blx@notetype=\count378
+\blx@parenlevel@text=\count379
+\blx@parenlevel@foot=\count380
+\blx@sectionciteorder@0=\count381
+\blx@entrysetcounter=\count382
+\blx@biblioinstance=\count383
+\labelnumberwidth=\skip73
+\labelalphawidth=\skip74
+\biblabelsep=\skip75
+\bibitemsep=\skip76
+\bibnamesep=\skip77
+\bibinitsep=\skip78
+\bibparsep=\skip79
+\bibhang=\skip80
+\blx@bcfin=\read2
+\blx@bcfout=\write4
+\blx@langwohyphens=\language79
+\c@mincomprange=\count384
+\c@maxcomprange=\count385
+\c@mincompwidth=\count386
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex citestyle data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count387
+\c@savedafterword=\count388
+\c@annotator=\count389
+\c@savedannotator=\count390
+\c@author=\count391
+\c@savedauthor=\count392
+\c@bookauthor=\count393
+\c@savedbookauthor=\count394
+\c@commentator=\count395
+\c@savedcommentator=\count396
+\c@editor=\count397
+\c@savededitor=\count398
+\c@editora=\count399
+\c@savededitora=\count400
+\c@editorb=\count401
+\c@savededitorb=\count402
+\c@editorc=\count403
+\c@savededitorc=\count404
+\c@foreword=\count405
+\c@savedforeword=\count406
+\c@holder=\count407
+\c@savedholder=\count408
+\c@introduction=\count409
+\c@savedintroduction=\count410
+\c@namea=\count411
+\c@savednamea=\count412
+\c@nameb=\count413
+\c@savednameb=\count414
+\c@namec=\count415
+\c@savednamec=\count416
+\c@translator=\count417
+\c@savedtranslator=\count418
+\c@shortauthor=\count419
+\c@savedshortauthor=\count420
+\c@shorteditor=\count421
+\c@savedshorteditor=\count422
+\c@labelname=\count423
+\c@savedlabelname=\count424
+\c@institution=\count425
+\c@savedinstitution=\count426
+\c@lista=\count427
+\c@savedlista=\count428
+\c@listb=\count429
+\c@savedlistb=\count430
+\c@listc=\count431
+\c@savedlistc=\count432
+\c@listd=\count433
+\c@savedlistd=\count434
+\c@liste=\count435
+\c@savedliste=\count436
+\c@listf=\count437
+\c@savedlistf=\count438
+\c@location=\count439
+\c@savedlocation=\count440
+\c@organization=\count441
+\c@savedorganization=\count442
+\c@origlocation=\count443
+\c@savedoriglocation=\count444
+\c@origpublisher=\count445
+\c@savedorigpublisher=\count446
+\c@publisher=\count447
+\c@savedpublisher=\count448
+\c@language=\count449
+\c@savedlanguage=\count450
+\c@origlanguage=\count451
+\c@savedoriglanguage=\count452
+\c@pageref=\count453
+\c@savedpageref=\count454
+\shorthandwidth=\skip81
+\shortjournalwidth=\skip82
+\shortserieswidth=\skip83
+\shorttitlewidth=\skip84
+\shortauthorwidth=\skip85
+\shorteditorwidth=\skip86
+\locallabelnumberwidth=\skip87
+\locallabelalphawidth=\skip88
+\localshorthandwidth=\skip89
+\localshortjournalwidth=\skip90
+\localshortserieswidth=\skip91
+\localshorttitlewidth=\skip92
+\localshortauthorwidth=\skip93
+\localshorteditorwidth=\skip94
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count455
+\c@textcitetotal=\count456
+\c@textcitemaxnames=\count457
+\c@biburlbigbreakpenalty=\count458
+\c@biburlbreakpenalty=\count459
+\c@biburlnumpenalty=\count460
+\c@biburlucpenalty=\count461
+\c@biburllcpenalty=\count462
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count463
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\blx-natbib.def
+File: blx-natbib.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count464
+\c@bbx:relatedtotal=\count465
+))
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/cbx\authoryear.cbx
+File: authoryear.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+))
+(C:\Program Files\MiKTeX\tex/latex/polyglossia\gloss-french.ldf
+File: gloss-french.ldf polyglossia: module for french
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {french/script}  =>  {Latin}
+>  {french/lcscript}  =>  {latin}
+>  {french/scripttag}  =>  {}
+>  {french/language}  =>  {French}
+>  {french/langtag}  =>  {FRA}
+>  {french/bcp47}  =>  {fr-FR}
+>  {french/hyphennames}  =>  {french,francais}
+>  {french/direction}  =>  {LR}
+>  {french/hyphenmins}  =>  {2,2}
+>  {french/frenchspacing}  =>  {true}
+>  {french/indentfirst}  =>  {true}
+>  {french/fontsetup}  =>  {true}
+>  {french/envname}  =>  {french}
+>  {french/babelname}  =>  {french}
+>  {french/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {french/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+\french@openbrackets=\XeTeXcharclass2
+\french@closebrackets=\XeTeXcharclass3
+\french@questionexclamation=\XeTeXcharclass4
+\french@punctthin=\XeTeXcharclass5
+\french@punctthick=\XeTeXcharclass6
+\french@punctguillstart=\XeTeXcharclass7
+\french@punctguillend=\XeTeXcharclass8
+Package polyglossia Info: Option: French, variant=french.
+)
+Package polyglossia Info: Default language is french.
+
+(C:\Program Files\MiKTeX\tex/latex/polyglossia\gloss-arabic.ldf
+File: gloss-arabic.ldf polyglossia: module for arabic
+
+(C:\Program Files\MiKTeX\tex/xelatex/bidi\bidi.sty
+Package: bidi 2020/05/17 v36.3 Bidirectional typesetting in plain TeX and LaTeX
+
+
+****************************************************
+* 
+* bidi package (Bidirectional typesetting in
+* plain TeX and LaTeX, using XeTeX engine)
+* 
+* Description: A convenient interface for
+* typesetting bidirectional texts in plain TeX
+* and LaTeX. The package includes adaptations
+* for use with many other commonly-used packages.
+* 
+* Copyright (c) 2007--2020 Vafa Khalighi
+* Copyright (c) 2018--2020 bidi-tex GitHub organization
+* 
+* v36.3, 2020/05/17
+* 
+* License: LaTeX Project Public License, version
+* 1.3c or higher (your choice)
+* 
+* Location on CTAN: /macros/xetex/latex/bidi
+* 
+* Issue tracker: https://github.com/persiantex/bidi/issues
+* 
+* Primary author of bidi package: Vafa Khalighi.
+* 
+****************************************************
+(C:\Program Files\MiKTeX\tex/xelatex/bidi\biditools.sty
+Package: biditools 2020/05/13 v2 Programming tools for bidi package
+\@bidi@envbody=\toks26
+\@bidi@emptytoks=\toks27
+\bidi@poscount=\count466
+
+
+Package biditools Warning: Patching `\enddocument' failed on input line 916.
+
+\bidi@tempcountb=\count467
+\bidi@temptoksa=\toks28
+\bidi@temptoksb=\toks29
+\bidi@dummies=\count468
+\bidi@are@these@correct=\toks30
+\bidi@toks@lista=\toks31
+\bidi@toks@listb=\toks32
+\bidi@stack@length=\count469
+\bidi@empty@stack=\toks33
+\bidi@looprepeat@depth=\count470
+) (C:\Program Files\MiKTeX\tex/latex/zref\zref-abspage.sty
+Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
+
+(C:\Program Files\MiKTeX\tex/latex/zref\zref-base.sty
+Package: zref-base 2020-07-03 v2.32 Module base for zref (HO)
+Package zref Info: New property list: main on input line 764.
+Package zref Info: New property: default on input line 765.
+Package zref Info: New property: page on input line 766.
+)
+\c@abspage=\count471
+Package zref Info: New property: abspage on input line 66.
+)
+\@bidi@copyins@=\insert252
+
+(C:\Program Files\MiKTeX\tex/xelatex/bidi\latex-xetex-bidi.def
+File: latex-xetex-bidi.def 2019/03/03 v1.3.7 bidi adaptations for `latex.ltx' f
+or XeTeX engine
+\bidi@n@everypar=\toks34
+\bidi@column@check@number=\count472
+
+(C:\Program Files\MiKTeX\tex/xelatex/bidi\footnote-xetex-bidi.def
+File: footnote-xetex-bidi.def 2017/08/09 v1.1 bidi footnote macros for XeTeX en
+gine
+\c@footdir@label=\count473
+\footdir@toks=\toks35
+)
+(C:\Program Files\MiKTeX\tex/xelatex/bidi\book-xetex-bidi.def
+File: book-xetex-bidi.def 2017/06/09 v1.0 bidi adaptations for standard book cl
+ass for XeTeX engine
+)
+(C:\Program Files\MiKTeX\tex/xelatex/bidi\color-xetex-bidi.def
+File: color-xetex-bidi.def 2013/04/08 v0.2 bidi adaptations for color package f
+or XeTeX engine
+LaTeX Info: Redefining \color on input line 47.
+)
+(C:\Program Files\MiKTeX\tex/xelatex/bidi\xcolor-xetex-bidi.def
+File: xcolor-xetex-bidi.def 2013/04/08 v0.2 bidi adaptations for xcolor package
+ for XeTeX engine
+LaTeX Info: Redefining \color on input line 46.
+LaTeX Info: Redefining \bidicolor on input line 89.
+)
+(C:\Program Files\MiKTeX\tex/xelatex/bidi\graphicx-xetex-bidi.def
+File: graphicx-xetex-bidi.def 2017/06/17 v0.5 bidi adaptations for graphicx pac
+kage for XeTeX engine
+)
+(C:\Program Files\MiKTeX\tex/xelatex/bidi\geometry-xetex-bidi.def
+File: geometry-xetex-bidi.def 2017/01/14 v0.2 bidi adaptations for geometry pac
+kage for XeTeX engine
+)
+(C:\Program Files\MiKTeX\tex/xelatex/bidi\longtable-xetex-bidi.def
+File: longtable-xetex-bidi.def 2019/01/19 v0.5 bidi adaptations for longtable p
+ackage for XeTeX engine
+)
+(C:\Program Files\MiKTeX\tex/xelatex/bidi\hyperref-xetex-bidi.def
+File: hyperref-xetex-bidi.def 2018/11/11 v1.1 bidi adaptations for hyperref pac
+kage for XeTeX engine
+)
+(C:\Program Files\MiKTeX\tex/xelatex/bidi\fancyhdr-xetex-bidi.def
+File: fancyhdr-xetex-bidi.def 2018/02/15 v0.7 bidi adaptations for fancyhdr pac
+kage for XeTeX engine
+)
+(C:\Program Files\MiKTeX\tex/xelatex/bidi\eso-pic-xetex-bidi.def
+File: eso-pic-xetex-bidi.def 2013/04/10 v0.2 bidi adaptations for eso-pic packa
+ge for XeTeX engine
+)
+(C:\Program Files\MiKTeX\tex/xelatex/bidi\listings-xetex-bidi.def
+File: listings-xetex-bidi.def 2018/09/15 v1.5 bidi adaptations for listings pac
+kage for XeTeX engine
+)
+(C:\Program Files\MiKTeX\tex/xelatex/bidi\array-xetex-bidi.def
+File: array-xetex-bidi.def 2015/11/07 v0.3 bidi adaptations for array package f
+or XeTeX engine
+)
+(C:\Program Files\MiKTeX\tex/xelatex/bidi\minitoc-xetex-bidi.def
+File: minitoc-xetex-bidi.def 2010/07/25 v0.1 bidi adaptations for minitoc packa
+ge for XeTeX engine
+))
+(C:\Program Files\MiKTeX\tex/xelatex/bidi\loadingorder-xetex-bidi.def
+File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
+ last package loaded
+)
+\bidi@digits=\count474
+\bidi@digits@charclass=\XeTeXcharclass9
+\bidi@sepmark@charclass=\XeTeXcharclass10
+)
+(C:\Program Files\MiKTeX\tex/latex/polyglossia\arabicnumbers.sty
+Package: arabicnumbers 2010/03/18 v0.2 Formatting of Arabic and Farsi digits an
+d of Arabic abjad numerals
+)
+(C:\Program Files\MiKTeX\tex/latex/polyglossia\hijrical.sty
+Package: hijrical 2010/07/12 v0.2 Islamic calendar
+
+(C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count475
+\calc@Bcount=\count476
+\calc@Adimen=\dimen166
+\calc@Bdimen=\dimen167
+\calc@Askip=\skip95
+\calc@Bskip=\skip96
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count477
+\calc@Cskip=\skip97
+)
+(C:\Program Files\MiKTeX\tex/latex/polyglossia\cal-util.def
+\c@tmpA=\count478
+\c@tmpB=\count479
+\c@tmpC=\count480
+\c@tmpD=\count481
+\c@tmpE=\count482
+\c@tmpF=\count483
+)
+\c@Hijriday=\count484
+\c@Hijrimonth=\count485
+\c@Hijriyear=\count486
+)
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {french/script}  =>  {Latin}
+>  {french/lcscript}  =>  {latin}
+>  {french/scripttag}  =>  {}
+>  {french/language}  =>  {French}
+>  {french/langtag}  =>  {FRA}
+>  {french/bcp47}  =>  {fr-FR}
+>  {french/hyphennames}  =>  {french,francais}
+>  {french/direction}  =>  {LR}
+>  {french/hyphenmins}  =>  {2,2}
+>  {french/frenchspacing}  =>  {true}
+>  {french/indentfirst}  =>  {true}
+>  {french/fontsetup}  =>  {true}
+>  {french/envname}  =>  {french}
+>  {french/babelname}  =>  {french}
+>  {french/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {french/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {arabic/script}  =>  {Arabic}
+>  {arabic/lcscript}  =>  {arabic}
+>  {arabic/scripttag}  =>  {arab}
+>  {arabic/language}  =>  {Arabic}
+>  {arabic/langtag}  =>  {ARA}
+>  {arabic/bcp47}  =>  {ar}
+>  {arabic/hyphennames}  =>  {nohyphenation}
+>  {arabic/direction}  =>  {RL}
+>  {arabic/hyphenmins}  =>  {2,3}
+>  {arabic/frenchspacing}  =>  {false}
+>  {arabic/indentfirst}  =>  {false}
+>  {arabic/fontsetup}  =>  {true}
+>  {arabic/envname}  =>  {Arabic}
+>  {arabic/babelname}  =>  {arabic}
+>  {arabic/localnumeral}  =>  {arabicnumerals}
+>  {arabic/Localnumeral}  =>  {arabicnumerals}.
+)
+(C:\Program Files\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {french/script}  =>  {latin}
+>  {french/lcscript}  =>  {latin}
+>  {french/scripttag}  =>  {}
+>  {french/language}  =>  {French}
+>  {french/langtag}  =>  {}
+>  {french/bcp47}  =>  {}
+>  {french/hyphennames}  =>  {}
+>  {french/direction}  =>  {LR}
+>  {french/hyphenmins}  =>  {2,3}
+>  {french/frenchspacing}  =>  {false}
+>  {french/indentfirst}  =>  {false}
+>  {french/fontsetup}  =>  {false}
+>  {french/envname}  =>  {french}
+>  {french/babelname}  =>  {french}
+>  {french/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {french/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {arabic/script}  =>  {Arabic}
+>  {arabic/lcscript}  =>  {arabic}
+>  {arabic/scripttag}  =>  {arab}
+>  {arabic/language}  =>  {Arabic}
+>  {arabic/langtag}  =>  {ARA}
+>  {arabic/bcp47}  =>  {ar}
+>  {arabic/hyphennames}  =>  {nohyphenation}
+>  {arabic/direction}  =>  {RL}
+>  {arabic/hyphenmins}  =>  {2,3}
+>  {arabic/frenchspacing}  =>  {false}
+>  {arabic/indentfirst}  =>  {false}
+>  {arabic/fontsetup}  =>  {true}
+>  {arabic/envname}  =>  {Arabic}
+>  {arabic/babelname}  =>  {arabic}
+>  {arabic/localnumeral}  =>  {arabicnumerals}
+>  {arabic/Localnumeral}  =>  {arabicnumerals}.
+Package polyglossia Info: Skipping automatic font setup for language french.
+
+(C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
+\csq@reset=\count487
+\csq@gtype=\count488
+\csq@glevel=\count489
+\csq@qlevel=\count490
+\csq@maxlvl=\count491
+\csq@tshold=\count492
+\csq@ltx@everypar=\toks36
+
+(C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+)
+Package csquotes Info: Redefining alias 'french' -> 'french/guillemets'.
+)
+(C:\Program Files\MiKTeX\tex/latex/lm\lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(C:\Program Files\MiKTeX\tex/latex/placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(C:\Program Files\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+
+)
+(C:\Program Files\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip98
+\enit@outerparindent=\dimen168
+\enit@toks=\toks37
+\enit@inbox=\box63
+\enit@count@id=\count493
+\enitdp@description=\count494
+)) (PreambuleGarde.tex)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'polyglossia' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'french'.
+(memoire_komlan.aux
+LaTeX Info: Redefining \rmfamily on input line 24.
+LaTeX Info: Redefining \sffamily on input line 24.
+LaTeX Info: Redefining \ttfamily on input line 24.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="French" to langtag "") on input line 24.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `monlabel' multiply defined.
+
+
+LaTeX Warning: Label `texbook' multiply defined.
+
+
+LaTeX Warning: Label `lamport94' multiply defined.
+
+
+LaTeX Warning: Label `lamport94' multiply defined.
+
+(References/References.aux) (Annexes/Annexes.aux) (Annexes/Annexes.aux))
+\openout1 = `memoire_komlan.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
+6.
+
+(C:\Program Files\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 36.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 36
+.
+
+(C:\Program Files\MiKTeX\tex/latex/tipa\t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 36.
+Package hyperref Info: Link coloring ON on input line 36.
+
+(C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count495
+)
+LaTeX Info: Redefining \ref on input line 36.
+LaTeX Info: Redefining \pageref on input line 36.
+LaTeX Info: Redefining \nameref on input line 36.
+
+(memoire_komlan.out) (memoire_komlan.out)
+\@outlinefile=\write5
+\openout5 = `memoire_komlan.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.70166pt, 418.25368pt, 107.55254pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=591.5302pt
+* \oddsidemargin=-0.56833pt
+* \evensidemargin=35.28255pt
+* \topmargin=-20.73714pt
+* \headheight=30.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count496
+Package minitoc(hints) Info: I0049
+(minitoc(hints))             ==> You requested the hints option. 
+(minitoc(hints))             Some hints are eventually given below.
+Package minitoc(hints) Info: I0042
+(minitoc(hints))             --- The appendix package is loaded. 
+(minitoc(hints))             See the minitoc package documentation 
+(minitoc(hints))             for specific precautions.
+
+Package minitoc(hints) Warning: W0030
+(minitoc(hints))                --- The \part command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+
+Package minitoc(hints) Warning: W0028
+(minitoc(hints))                --- The \chapter command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+Package biblatex Info: Trying to load language 'arabic'...
+Package biblatex Info: ... file 'arabic.lbx' not found.
+
+Package biblatex Warning: Language 'arabic' not supported.
+(biblatex)                Using dummy definitions on input line 36.
+
+Package biblatex Info: Trying to load language 'french'...
+Package biblatex Info: ... file 'french.lbx' found.
+(C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\french.lbx
+File: french.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2021-06-01 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout4 = `memoire_komlan.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'memoire_komlan.bbl' found.
+
+(memoire_komlan.bbl)
+Package biblatex Info: Reference section=0 on input line 36.
+Package biblatex Info: Reference segment=0 on input line 36.
+LaTeX Info: Redefining \rmfamily on input line 36.
+LaTeX Info: Redefining \sffamily on input line 36.
+LaTeX Info: Redefining \ttfamily on input line 36.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="French" to langtag "") on input line 36.
+
+Package minitoc Info: I0024
+(minitoc)             PREPARING MINITOCS FROM memoire_komlan.toc on input line 
+52.
+Package minitoc Info: I0033
+(minitoc)             Writing memoire_komlan.mtc1.
+\openout3 = `memoire_komlan.mtc1'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing memoire_komlan.mtc2.
+\openout3 = `memoire_komlan.mtc2'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing memoire_komlan.mtc3.
+\openout3 = `memoire_komlan.mtc3'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing memoire_komlan.mtc4.
+\openout3 = `memoire_komlan.mtc4'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing memoire_komlan.mtc5.
+\openout3 = `memoire_komlan.mtc5'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing memoire_komlan.mtc6.
+\openout3 = `memoire_komlan.mtc6'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing memoire_komlan.mtc7.
+\openout3 = `memoire_komlan.mtc7'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing memoire_komlan.mtc8.
+\openout3 = `memoire_komlan.mtc8'.
+
+Package minitoc Info: I0025
+(minitoc)             PREPARING PARTTOCS FROM memoire_komlan.toc on input line 
+53.
+{\reset@font\ptcCfont\mtc@string\contentsline{starchapter}{\noexpand \leavevmod
+e Remerciements}{\reset@font\ptcCfont 5}{chapter*.2}}
+{\reset@font\ptcCfont\mtc@string\contentsline{starchapter}{\noexpand \leavevmod
+e Résumé}{\reset@font\ptcCfont 7}{chapter*.3}}
+{\reset@font\ptcCfont\mtc@string\contentsline{starchapter}{\noexpand \leavevmod
+e Introduction Générale}{\reset@font\ptcCfont 9}{chapter*.4}}
+Package minitoc Info: I0033
+(minitoc)             Writing memoire_komlan.ptc1.
+\openout3 = `memoire_komlan.ptc1'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing memoire_komlan.ptc2.
+\openout3 = `memoire_komlan.ptc2'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing memoire_komlan.ptc3.
+\openout3 = `memoire_komlan.ptc3'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing memoire_komlan.ptc4.
+\openout3 = `memoire_komlan.ptc4'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing memoire_komlan.ptc5.
+\openout3 = `memoire_komlan.ptc5'.
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(45.52458pt, 523.53055pt, 28.45274pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=523.53055pt
+* \textheight=731.23584pt
+* \oddsidemargin=-26.7454pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-65.23828pt
+* \headheight=30.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+File: images/logo_paris_8.png Graphic file (type bmp)
+<images/logo_paris_8.png>
+File: images/tc_logo.jpeg Graphic file (type bmp)
+<images/tc_logo.jpeg>
+
+LaTeX Font Warning: Font shape `TU/lmr/bx/sc' undefined
+(Font)              using `TU/lmr/bx/n' instead on input line 54.
+
+File: images/border_paris_8.png Graphic file (type bmp)
+<images/border_paris_8.png>
+[1
+
+
+
+] [2
+
+
+] (memoire_komlan.toc
+LaTeX Info: Redefining \rmfamily on input line 3.
+LaTeX Info: Redefining \sffamily on input line 3.
+LaTeX Info: Redefining \ttfamily on input line 3.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="French" to langtag "") on input line 3.
+
+[3]) (./Remerciements.tex [4]
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+[][]
+ []
+
+) (./Resume.tex [5
+
+] [6
+
+]) (./Introduction.tex [7] [8
+
+]) [9] [10
+
+] [11] [12]
+\openout3 = `memoire_komlan.mtc'.
+
+\openout3 = `memoire_komlan.mtc'.
+
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
+2.
+
+(C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
+2.
+
+(C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+62.
+
+(C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+62.
+
+(C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 62.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 62.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 62.
+ (memoire_komlan.ptc1)
+[13
+
+] [14
+
+] (./Presentation_entreprise.tex
+Chapitre 1.
+\openout3 = `memoire_komlan.mtc'.
+
+\openout3 = `memoire_komlan.mtc'.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 4.
+(memoire_komlan.mtc4) [15
+
+] [16]
+File: ./images/chiffres_tc.png Graphic file (type bmp)
+<./images/chiffres_tc.png>
+
+Overfull \hbox (8.54295pt too wide) in paragraph at lines 17--18
+ [][][] 
+ []
+
+File: ./images/chiffre_affaire.png Graphic file (type bmp)
+<./images/chiffre_affaire.png>
+
+Overfull \hbox (8.53183pt too wide) in paragraph at lines 25--26
+ [][][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17] [18]
+File: ./images/business_links.png Graphic file (type bmp)
+<./images/business_links.png>
+
+Overfull \hbox (8.54143pt too wide) in paragraph at lines 46--47
+ [][][] 
+ []
+
+[19] [20]
+File: ./images/client_links.png Graphic file (type bmp)
+<./images/client_links.png>
+
+Overfull \hbox (8.54169pt too wide) in paragraph at lines 72--73
+ [][][] 
+ []
+
+[21] [22]) [23] [24
+
+] [25] [26]
+\openout3 = `memoire_komlan.mtc'.
+
+\openout3 = `memoire_komlan.mtc'.
+
+ (memoire_komlan.ptc2) [27
+
+] [28
+
+]
+(./Problematique.tex
+Chapitre 2.
+\openout3 = `memoire_komlan.mtc'.
+
+\openout3 = `memoire_komlan.mtc'.
+
+(memoire_komlan.mtc5) [29
+
+]
+File: ./images/format_transac.png Graphic file (type bmp)
+<./images/format_transac.png>
+
+Overfull \hbox (8.5331pt too wide) in paragraph at lines 12--13
+ [][][] 
+ []
+
+
+Overfull \hbox (0.95114pt too wide) in paragraph at lines 18--19
+[][]\TU/lmr/m/n/12 Après avoir extrait les informations nécessaires, l’objectif
+ maintenant est d’iden-[]
+ []
+
+[30]
+File: ./images/feature_engineering.png Graphic file (type bmp)
+<./images/feature_engineering.png>
+
+Overfull \hbox (8.52036pt too wide) in paragraph at lines 43--44
+ [][][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+[][]
+ []
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+[][]
+ []
+
+[32] [33]
+File: ./images/dataset_1.png Graphic file (type bmp)
+<./images/dataset_1.png>
+
+Overfull \hbox (8.5452pt too wide) in paragraph at lines 99--100
+ [][][] 
+ []
+
+File: ./images/dataset_2.png Graphic file (type bmp)
+<./images/dataset_2.png>
+
+Overfull \hbox (8.54306pt too wide) in paragraph at lines 107--108
+ [][][] 
+ []
+
+) [34] [35
+
+] [36]
+\openout3 = `memoire_komlan.mtc'.
+
+\openout3 = `memoire_komlan.mtc'.
+
+ (memoire_komlan.ptc3) [37
+
+] [38
+
+] (./Etat_de_l_art.tex
+Chapitre 3.
+\openout3 = `memoire_komlan.mtc'.
+
+\openout3 = `memoire_komlan.mtc'.
+
+(memoire_komlan.mtc6) [39
+
+] [40]
+File: ./images/tree_geographical.png Graphic file (type bmp)
+<./images/tree_geographical.png>
+
+Overfull \hbox (8.54523pt too wide) in paragraph at lines 22--23
+ [][][] 
+ []
+
+[41]
+File: ./images/inmall_outmall.png Graphic file (type bmp)
+<./images/inmall_outmall.png>
+
+Overfull \hbox (8.54109pt too wide) in paragraph at lines 36--37
+ [][][] 
+ []
+
+[42] [43]
+File: ./images/distance_levenshtein.png Graphic file (type bmp)
+<./images/distance_levenshtein.png>
+
+Overfull \hbox (8.55846pt too wide) in paragraph at lines 85--87
+ [][][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[44]
+Overfull \hbox (0.50989pt too wide) in paragraph at lines 91--91
+[][]\TU/lmr/bx/n/17.28 Etat de l’art des algorithmes de machine lear-[]
+ []
+
+File: ./images/svm_separate.png Graphic file (type bmp)
+<./images/svm_separate.png>
+
+Overfull \hbox (8.54684pt too wide) in paragraph at lines 98--99
+ [][][] 
+ []
+
+File: ./images/svm_equation.png Graphic file (type bmp)
+<./images/svm_equation.png>
+
+Overfull \hbox (8.54565pt too wide) in paragraph at lines 107--108
+ [][][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[45]
+File: ./images/decision_tree_formular.png Graphic file (type bmp)
+<./images/decision_tree_formular.png>
+
+Overfull \hbox (8.54385pt too wide) in paragraph at lines 119--120
+ [][][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[46] [47]
+File: ./images/decision_tree_equation.png Graphic file (type bmp)
+<./images/decision_tree_equation.png>
+
+Overfull \hbox (8.5411pt too wide) in paragraph at lines 128--130
+ [][][] 
+ []
+
+[48]
+File: ./images/random-forest-classifier.png Graphic file (type bmp)
+<./images/random-forest-classifier.png>
+
+Overfull \hbox (8.53452pt too wide) in paragraph at lines 138--139
+ [][][] 
+ []
+
+[49]
+File: ./images/knn_sheama.png Graphic file (type bmp)
+<./images/knn_sheama.png>
+
+Overfull \hbox (8.55344pt too wide) in paragraph at lines 150--151
+ [][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+[][]
+ []
+
+[50]) [51] [52
+
+] [53] [54]
+\openout3 = `memoire_komlan.mtc'.
+
+\openout3 = `memoire_komlan.mtc'.
+
+ (memoire_komlan.ptc4) [55
+
+] [56
+
+]
+(./Systeme_realise.tex
+Chapitre 4.
+\openout3 = `memoire_komlan.mtc'.
+
+\openout3 = `memoire_komlan.mtc'.
+
+(memoire_komlan.mtc7) [57
+
+] [58]
+File: ./images/data_infos.png Graphic file (type bmp)
+<./images/data_infos.png>
+
+Overfull \hbox (8.54742pt too wide) in paragraph at lines 16--17
+ [][][] 
+ []
+
+[59]
+File: ./images/statistics_1.png Graphic file (type bmp)
+<./images/statistics_1.png>
+
+Overfull \hbox (8.54153pt too wide) in paragraph at lines 27--28
+ [][][] 
+ []
+
+File: ./images/statistics_2.png Graphic file (type bmp)
+<./images/statistics_2.png>
+
+Overfull \hbox (8.54391pt too wide) in paragraph at lines 35--36
+ [][][] 
+ []
+
+[60]
+File: ./images/matrix_corelation.png Graphic file (type bmp)
+<./images/matrix_corelation.png>
+
+Overfull \hbox (93.8973pt too wide) in paragraph at lines 45--46
+ [][][] 
+ []
+
+
+Overfull \hbox (23.64636pt too wide) in paragraph at lines 50--51
+[]\TU/lmr/m/n/12 forte liaison à 0.92 entre les variables Purchases-Potential-N
+extToTheMall et Purchases-[]
+ []
+
+[61]
+File: ./images/day_week.png Graphic file (type bmp)
+<./images/day_week.png>
+
+Overfull \hbox (8.54886pt too wide) in paragraph at lines 58--59
+ [][][] 
+ []
+
+File: ./images/near_store.png Graphic file (type bmp)
+<./images/near_store.png>
+
+Overfull \hbox (8.54836pt too wide) in paragraph at lines 68--69
+ [][][] 
+ []
+
+[62] [63]
+File: ./images/accuracy_modeles.png Graphic file (type bmp)
+<./images/accuracy_modeles.png>
+
+Overfull \hbox (8.5521pt too wide) in paragraph at lines 80--81
+ [][][] 
+ []
+
+File: ./images/diagram_modeles.png Graphic file (type bmp)
+<./images/diagram_modeles.png>
+
+Overfull \hbox (8.55467pt too wide) in paragraph at lines 88--89
+ [][][] 
+ []
+
+File: ./images/roc_auc.png Graphic file (type bmp)
+<./images/roc_auc.png>
+
+Overfull \hbox (8.5612pt too wide) in paragraph at lines 99--100
+ [][][] 
+ []
+
+[64] [65]
+File: ./images/confusion_matrix.png Graphic file (type bmp)
+<./images/confusion_matrix.png>
+
+Overfull \hbox (8.54047pt too wide) in paragraph at lines 110--111
+ [][][] 
+ []
+
+[66]) [67] [68
+
+] [69] [70]
+\openout3 = `memoire_komlan.mtc'.
+
+\openout3 = `memoire_komlan.mtc'.
+
+ (memoire_komlan.ptc5) [71
+
+] [72
+
+] (./Conclusion.tex)
+(./Bibliographie.tex [73
+
+] [74
+
+]) [75] (./Webographie.tex
+Overfull \hbox (96.68571pt too wide) in paragraph at lines 2--4
+[][][][]$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][][][][][]
+[] [] [][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][] [] [][][
+][][][][][][][][][][][][][][][][][][]$[][][] []
+ []
+
+
+Overfull \hbox (46.72179pt too wide) in paragraph at lines 10--12
+[][][][]$[][][][][] [] [] [] [][][][][][][][][][][] [] [][][][][][][][] [] [][]
+ [] [][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][
+][][][][][][][][][]$[][][] []
+ []
+
+
+Overfull \hbox (358.73341pt too wide) in paragraph at lines 14--16
+[][][][]$[][][][][] [] [] [] [][][][][][][][] [] [][][][][][][][] [] [][] [] []
+[][][][][][][][][][][][] [] [][][][][][][][][][][][][][] [] [][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][] []$[][]
+ []
+
+) [76]
+\openout2 = `References/References.aux'.
+
+
+No file References/References.tex.
+(memoire_komlan.lof
+LaTeX Info: Redefining \rmfamily on input line 3.
+LaTeX Info: Redefining \sffamily on input line 3.
+LaTeX Info: Redefining \ttfamily on input line 3.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="French" to langtag "") on input line 3.
+
+)
+\tf@lof=\write6
+\openout6 = `memoire_komlan.lof'.
+
+ [77
+
+
+
+
+] [78] (memoire_komlan.lot
+LaTeX Info: Redefining \rmfamily on input line 3.
+LaTeX Info: Redefining \sffamily on input line 3.
+LaTeX Info: Redefining \ttfamily on input line 3.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="French" to langtag "") on input line 3.
+
+)
+\tf@lot=\write7
+\openout7 = `memoire_komlan.lot'.
+
+ [79
+
+] [80
+
+] (memoire_komlan.toc
+LaTeX Info: Redefining \rmfamily on input line 3.
+LaTeX Info: Redefining \sffamily on input line 3.
+LaTeX Info: Redefining \ttfamily on input line 3.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="French" to langtag "") on input line 3.
+
+[81])
+\tf@toc=\write8
+\openout8 = `memoire_komlan.toc'.
+
+ [82]
+\openout2 = `Annexes/Annexes.aux'.
+
+
+No file Annexes/Annexes.tex.
+\openout2 = `Annexes/Annexes.aux'.
+
+No file Annexes/Annexes.tex.
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the memoire_komlan.maf file.
+\openout3 = `memoire_komlan.maf'.
+
+
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the memoire_komlan.log file.
+
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {french/script}  =>  {latin}
+>  {french/lcscript}  =>  {latin}
+>  {french/scripttag}  =>  {}
+>  {french/language}  =>  {French}
+>  {french/langtag}  =>  {}
+>  {french/bcp47}  =>  {}
+>  {french/hyphennames}  =>  {}
+>  {french/direction}  =>  {LR}
+>  {french/hyphenmins}  =>  {2,3}
+>  {french/frenchspacing}  =>  {false}
+>  {french/indentfirst}  =>  {false}
+>  {french/fontsetup}  =>  {false}
+>  {french/envname}  =>  {french}
+>  {french/babelname}  =>  {french}
+>  {french/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {french/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {arabic/script}  =>  {Arabic}
+>  {arabic/lcscript}  =>  {arabic}
+>  {arabic/scripttag}  =>  {arab}
+>  {arabic/language}  =>  {Arabic}
+>  {arabic/langtag}  =>  {ARA}
+>  {arabic/bcp47}  =>  {ar}
+>  {arabic/hyphennames}  =>  {nohyphenation}
+>  {arabic/direction}  =>  {RL}
+>  {arabic/hyphenmins}  =>  {2,3}
+>  {arabic/frenchspacing}  =>  {false}
+>  {arabic/indentfirst}  =>  {false}
+>  {arabic/fontsetup}  =>  {true}
+>  {arabic/envname}  =>  {Arabic}
+>  {arabic/babelname}  =>  {arabic}
+>  {arabic/localnumeral}  =>  {arabicnumerals}
+>  {arabic/Localnumeral}  =>  {arabicnumerals}.
+(memoire_komlan.aux
+LaTeX Info: Redefining \rmfamily on input line 24.
+LaTeX Info: Redefining \sffamily on input line 24.
+LaTeX Info: Redefining \ttfamily on input line 24.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="French" to langtag "") on input line 24.
+
+(References/References.aux) (Annexes/Annexes.aux) (Annexes/Annexes.aux))
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `memoire_komlan.out' has not changed.
+(rerunfilecheck)             Checksum: 8863612F3DD1340761FEE295AF08CE37;8424.
+Package logreq Info: Writing requests to 'memoire_komlan.run.xml'.
+\openout1 = `memoire_komlan.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 29435 strings out of 411271
+ 540977 string characters out of 2833088
+ 1403943 words of memory out of 3000000
+ 49164 multiletter control sequences out of 15000+600000
+ 418572 words of font info for 60 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 78i,12n,84p,1279b,3889s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on memoire_komlan.pdf (82 pages).

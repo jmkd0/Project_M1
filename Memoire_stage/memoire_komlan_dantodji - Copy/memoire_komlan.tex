@@ -1,0 +1,65 @@
+\documentclass[a4paper,12pt,twoside]{book}
+\usepackage{import}
+\input{Preambule}
+\input{PreambuleGarde}
+
+% Infos de la page de garde
+\author{Bahia \scshape{BOUAADA}}
+\title{Prédiction de données : application sur des données de matériels informatiques}
+\mention{Informatique\\
+Parcours MIASHS Big data et fouille de données}
+\directeur{Prenom \scshape Nom}
+\encadrant{Prenom \scshape{Nom}}
+\societe{\scshape{ECONOCOM}\\
+Adresse\\
+Suite Adresse}
+\date{\today} % remplacer \today par la date du jour de soutenance quand elle est connue
+\ecole{Université Paris 8 Vincennes à Saint-Denis}
+
+\begin{document}
+
+% En-têtes et pieds-de-page
+\fancyhead{}
+\fancyhead[RO,LE]{\thepage}
+\fancyhead[RE]{\textit{\leftmark}}
+\fancyhead[LO]{\textit{\rightmark}}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\fancyfoot{}
+\fancyfoot[LE]{\theauthor}
+\fancyfoot[LO]{\scshape \thetitle}
+\fancyfoot[RE]{Université Paris 8 Vincennes}
+
+% Calculer les sommaires
+\dominitoc
+\doparttoc
+
+\pagedegarde
+\shorttableofcontents{Sommaire}{0}
+\includefrom{Remerciements/}{Remerciements}
+
+
+\includefrom{Introduction/}{Introduction}
+
+\part{Présentation de l'entreprise}
+\parttoc
+\newpage
+%\includefrom{Chapitre7/}{Chapitre7}
+\import{./}{Chapitre7.tex}
+
+
+%\includefrom{Chapitre6/}{Chapitre6}
+
+\includefrom{Conclusion/}{Conclusion}
+\includefrom{References/}{References}
+%\bibliographystyle{plain}
+%\bibliography{Bibliographie}
+\printbibliography
+\listoffigures
+\listoftables
+\tableofcontents
+
+\includefrom{Annexes/}{Annexes}
+
+\includefrom{Annexes/}{Annexes}
+\end{document}

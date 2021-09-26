@@ -1,0 +1,11 @@
+{\reset@font\ptcCfont\mtc@string\contentsline{chapter}{\noexpand \leavevmode \numberline {4}Implémentation du système}{\reset@font\ptcCfont 57}{chapter.4}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.1}Introduction}{\reset@font\ptcSfont 58}{section.4.1}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.2}Analyse de données}{\reset@font\ptcSfont 59}{section.4.2}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.1}Informations sur la taille et les variables du jeu de donnée:}{\reset@font\ptcSSfont 59}{subsection.4.2.1}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.2}Statistiques sur la dataset:}{\reset@font\ptcSSfont 60}{subsection.4.2.2}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.3}Corrélation entre les variables numériques:}{\reset@font\ptcSSfont 61}{subsection.4.2.3}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.4}Relation entre les variables catégoriels:}{\reset@font\ptcSSfont 62}{subsection.4.2.4}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.3}Application des différents modèles au jeu de données}{\reset@font\ptcSfont 64}{section.4.3}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.1}Résultats de l’application des modèles sur le jeu de donnée}{\reset@font\ptcSSfont 64}{subsection.4.3.1}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.2}Tests et validation: Matrice de Confusion}{\reset@font\ptcSSfont 66}{subsection.4.3.2}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.4}Conclusion}{\reset@font\ptcSfont 67}{section.4.4}}

@@ -1,0 +1,59 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\selectlanguage *{french}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{I\hspace {1em}Présentation de l'entreprise}{5}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {xpart}{Présentation de l'entreprise}{7}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Présentation de l'entreprise}{9}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Présentation de l'Entreprise ECONOCOM}{10}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Les domaines d'expertise chez ECONOCOM}{11}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{II\hspace {1em}Problématique}{13}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {xpart}{Problématique}{15}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Le contexte de résolution du problème}{17}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Introduction}{18}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Conclusion}{18}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Le problème à résoudre}{19}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Introduction}{20}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Prédiction de pannes sur des matériels informatiques}{20}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Conclusion }{20}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{III\hspace {1em}État de l'art}{21}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {xpart}{État de l'art}{23}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}État de l'art des techniques}{25}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Introduction}{26}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Comparaison entre Random Forest et Decision Tree}{26}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Prédiction de pannes DSL par mesure passive sur des passerelles domestiques}{29}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Conclusion}{30}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{IV\hspace {1em}Système réalisé}{31}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {xpart}{Système réalisé}{33}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Implémentation du système}{35}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Introduction}{36}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Expérimentations et résultats}{36}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}Expérimentations}{36}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Conclusion}{41}{}%

@@ -1,0 +1,59 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\selectlanguage *{french}
+\defcounter {refsection}{0}\relax 
+\contentsline {xpart}{Présentation de l'entreprise}{7}{}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {xchapter}{Présentation de l'entreprise}{9}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Organigramme du groupe}}{10}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Les domaines d'expertise chez ECONOCOM}}{12}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {xpart}{Problématique}{15}{}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {xchapter}{Le contexte de résolution du problème}{17}{}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {xchapter}{Le problème à résoudre}{19}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {xpart}{État de l'art}{23}{}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {xchapter}{État de l'art des techniques}{25}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Caractéristiques et détails sur le jeu de données}}{26}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparaison du F1 score de Random Forest (J48) et Arbre de décision sur 20 jeu de données}}{27}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Comparaison des scores Precision, Recall et F-measure de Random Forest (J48) et Arbre de décision sur 20 jeu de données}}{28}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Caractéristiques collectées pour chaque lien DSL}}{29}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Caractéristiques de défaillance}}{30}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Evaluation et choix du meilleur modèle}}{30}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {xpart}{Système réalisé}{33}{}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {xchapter}{Implémentation du système}{35}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Jeu de données sur des caractéritiques d'ordinateurs loués}}{36}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Boite à moustache}}{37}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Histogramme sur les nombres d'ordinateur spar modèle}}{38}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Description du jeu de données préparées}}{39}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Matrice de corrélation entre les variables}}{40}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Comparaison des algorithmes}}{41}{}%
